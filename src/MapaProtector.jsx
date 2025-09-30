@@ -103,7 +103,7 @@ function MapaProtector() {
           position: 'fixed',
           bottom: '1em',
           right: '1em',
-          backgroundColor: '#e72107ff',
+          backgroundColor: '#e74707ff',
           color: 'white',
           padding: '0.8em',
           borderRadius: '50%',

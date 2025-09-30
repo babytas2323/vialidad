@@ -11,23 +11,23 @@ body {
 
 /* Radar animado */
 .radar-icon {
-  width: 20px;
-  height: 20px;
-  background-color: #d32f2f;
+  width: 15px;
+  height: 15px;
+  background-color: #024da3;
   border-radius: 50%;
-  box-shadow: 0 0 0 rgba(211, 47, 47, 0.4);
+  box-shadow: 0 0 0 rgba(31, 47, 47, 0.4);
   animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.4);
+    box-shadow: 0 0 0 0 rgba(1, 57, 240, 0.4);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(211, 47, 47, 0);
+    box-shadow: 0 0 0 10px rgba(1, 57, 240, 0.4);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(211, 47, 47, 0);
+    box-shadow: 0 0 0 0 rgba(1, 57, 240, 0.4);
   }
 }
 
