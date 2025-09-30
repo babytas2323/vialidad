@@ -10587,8 +10587,9 @@
       "properties": {
         "@id": "way/439779407",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+          "name": "Avenida 7 Poniente Hospital (O-P)",
+       "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -10622,8 +10623,9 @@
       "properties": {
         "@id": "way/439779408",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+          "name": "Avenida 7 Poniente Tecnica (P-O)",
+       "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -10653,8 +10655,9 @@
       "properties": {
         "@id": "way/439779410",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+          "name": "Avenida 7 Poniente (O-P)",
+       "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -34831,8 +34834,9 @@
       "properties": {
         "@id": "way/774750320",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+        "name": "Avenida 7 Poniente (P-O)",
+       "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -110180,8 +110184,9 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+         "name": "Avenida 7 Poniente (P-O)",
+       "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -110203,8 +110208,9 @@
       "properties": {
         "@id": "way/944668103",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+         "name": "Avenida 7 Poniente (P-O)",
+       "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -110230,8 +110236,9 @@
       "properties": {
         "@id": "way/944668104",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+         "name": "Avenida 7 Poniente (O-P)",
+       "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -110259,8 +110266,9 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
-        "name": "Avenida 7 Poniente",
-        "oneway": "yes"
+         "name": "Avenida 7 Poniente (O-P)",
+       "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
