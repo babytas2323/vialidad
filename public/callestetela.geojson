@@ -97645,9 +97645,9 @@
       "properties": {
         "@id": "way/843293690",
         "highway": "residential",
-        "name": "Calle 7 Poniente P",
+        "name": "Calle 7 Poniente",
         "oneway": "yes",
-        "sentido": "poniente-oriente"
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
