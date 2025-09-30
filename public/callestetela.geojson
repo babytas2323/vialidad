@@ -10725,7 +10725,9 @@
       "properties": {
         "@id": "way/439779414",
         "highway": "tertiary",
-        "name": "Calle 7 Poniente"
+        "name": "Calle 7 Poniente O",
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
         
       },
       "geometry": {
@@ -34759,7 +34761,9 @@
       "properties": {
         "@id": "way/774750318",
         "highway": "tertiary",
-        "name": "Avenida 7 Poniente"
+        "name": "Avenida 7 Poniente DS",
+        "oneway": "yes",
+        "sentido": "doble sentido"
         
       },
       "geometry": {
@@ -105548,9 +105552,9 @@
       "properties": {
         "@id": "way/941372125",
         "highway": "tertiary",
-        "name": "Calle 7 Poniente",
+        "name": "Calle 7 Poniente p",
         "oneway": "yes",
-        "sentido": "oriente-poniente"
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -105572,8 +105576,9 @@
       "properties": {
         "@id": "way/941372126",
         "highway": "tertiary",
-        "name": "Calle 7 Poniente",
-        "oneway": "yes"
+          "name": "Calle 7 Poniente O",
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
