@@ -36,7 +36,7 @@ function BotonPanico() {
       <button
         onClick={activarPanico}
         style={{
-          backgroundColor: '#d32f2f',
+          backgroundColor: '#2eee08ff',
           color: 'white',
           padding: '1em 2em',
           border: 'none',
