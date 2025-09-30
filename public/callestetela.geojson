@@ -34760,6 +34760,7 @@
         "@id": "way/774750318",
         "highway": "tertiary",
         "name": "Avenida 7 Poniente"
+        
       },
       "geometry": {
         "type": "LineString",
@@ -105548,7 +105549,8 @@
         "@id": "way/941372125",
         "highway": "tertiary",
         "name": "Calle 7 Poniente",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
