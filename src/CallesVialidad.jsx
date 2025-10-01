@@ -10,7 +10,8 @@ const colores = {
   'oriente-poniente': '#2196f3',    // azul
   'poniente-oriente': '#3f51b5',    // azul oscuro
   'doble sentido': '#4caf50',       // verde
-  'desconocido': '#b4b4b4ff',         // gris
+  //'desconocido': '#b4b4b4ff',         // gris
+  'desconocido': '#d1a101ff',  
 };
 
 // 🎨 Estilo visual por calle
@@ -40,7 +41,8 @@ function onEachFeature(feature, layer) {
   layer.bindPopup(`
     🛣️ <strong>${nombre}</strong><br/>
     🚦 Tipo: ${tipo}<br/>
-    🧭 Sentido: ${sentido}
+    🧭 Sentido: ${sentido}<br>
+    ID: ${feature.id}
   `);
 }
 

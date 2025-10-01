@@ -11540,7 +11540,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439779466",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr. Tetela al Puerto",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11832,7 +11835,7 @@
       "properties": {
         "@id": "way/439779469",
         "highway": "tertiary",
-        "name": "Cam Municipal Benito Juarez",
+        "name": "Carr Tetela al Puerto por Juarez",
           "oneway": "yes",
         "sentido": 	"doble sentido"
       },
@@ -15905,7 +15908,10 @@
       "properties": {
         "@id": "way/530080145",
         "highway": "tertiary",
-        "source:geometry": "LGL, www.lgl-bw.de"
+        "source:geometry": "LGL, www.lgl-bw.de",
+        "name": "Carr. Las Besanas Ilotepec",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -19403,7 +19409,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773884527",
-        "highway": "unclassified"
+        "highway": "unclassified",
+          "name": "Carr el Puerto al Mirador la Cumbre",
+         "oneway": "yes",
+         "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -19480,7 +19489,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773884528",
-        "highway": "tertiary"
+        "highway": "tertiary",
+        "name": "Carr Tetela al Puerto por Juarez",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21083,7 +21095,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773887128",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Tetela al Puerto",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30903,7 +30918,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774731055",
-        "highway": "unclassified"
+        "highway": "unclassified",
+          "name": "Carr. Tetela al Puerto",
+        "oneway": "yes",
+        "sentido": "doble sentido"
+
       },
       "geometry": {
         "type": "LineString",
@@ -30936,7 +30955,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774731056",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Tetela al Puerto",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -44870,7 +44892,9 @@
       "properties": {
         "@id": "way/775090320",
         "highway": "tertiary",
-        "name": "Avenida Principal"
+        "name": "Avenida Principal",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -44927,7 +44951,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775090321",
-        "highway": "tertiary"
+        "highway": "tertiary",
+        "name": "Carr. Puente Seco Centro Escolar",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -52868,7 +52895,10 @@
       "properties": {
         "@id": "way/775131247",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr. Xaltatempa Xilitetitla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -59619,7 +59649,7 @@
         "@id": "way/837960510",
         "highway": "unclassified",
         "source": "digitalglobe",
-         "name": "Carr. Zacatepec Zontecomapan",
+         "name": "Carr. Ometepetl Taxco",
         "oneway": "yes",
         "sentido": 	"doble sentido"
       },
@@ -69122,7 +69152,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838356954",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr. Rancho Viejo",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -69211,7 +69244,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838356955",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Ilotepec Rancho Viejo",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -82538,7 +82574,10 @@
       "properties": {
         "@id": "way/839029541",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr. Xaltatempa xilitetitla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -89084,7 +89123,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839122944",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Xaltatempa Xilitetitla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -90514,7 +90556,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839125942",
-        "highway": "tertiary"
+        "highway": "tertiary",
+         "name": "Carr. Puente Seco Xaltatempa",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -96071,7 +96116,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839149068",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Ometepetl Taxco",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -96531,7 +96579,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839150000",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Zontecomapan Tecuanta",
+         "oneway": "yes",
+         "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -104092,7 +104143,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940310013",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr el Puerto al Mirador la Cumbre",
+         "oneway": "yes",
+         "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -111579,7 +111633,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945328316",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr el Puerto al Mirador la Cumbre",
+         "oneway": "yes",
+         "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
