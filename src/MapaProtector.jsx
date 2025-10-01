@@ -71,14 +71,13 @@ function MapaProtector() {
           style={{ height: '100%', width: '100%', zIndex: 1 }}
           whenCreated={(mapInstance) => { mapaRef.current = mapInstance; }}
         >
-           <TileLayer
+          <TileLayer
             attribution='&copy; OpenStreetMap'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 
-          /> 
+          />
 
           
-
           
           {geojsonCalles && <CallesVialidad datos={geojsonCalles} />}
           <Marker position={posicion} icon={iconoRadar}>

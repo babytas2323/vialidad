@@ -11,7 +11,7 @@ const colores = {
   'poniente-oriente': '#3f51b5',    // azul oscuro
   'doble sentido': '#4caf50',       // verde
   //'desconocido': '#b4b4b4ff',         // gris
-  'desconocido': '#d1a101ff',  
+  'desconocido': '#b4b4b4ff',  
 };
 
 // 🎨 Estilo visual por calle
