@@ -22,3 +22,8 @@ git add .
 git commit -m "Actualizo mapa protector con cambios recientes"  
 git push   
 
+<TileLayer
+           attribution="&copy; Google Maps"
+           url="https://mt1.google.com/vt/lyrs=s,r&x={x}&y={y}&z={z}"
+           subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
+          />
