@@ -9,7 +9,10 @@
       "properties": {
         "@id": "way/69963244",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "name": "Carr la Cañada a Huauaxla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11130,7 +11133,13 @@
           [
             -97.8071332,
             19.8178764
+          ],
+          [
+            -97.8064956,
+            19.8180524
           ]
+          
+
         ]
       },
       "id": "way/439779441"
@@ -12224,7 +12233,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439786823",
-        "highway": "tertiary"
+        "highway": "tertiary",
+          "name": "Carretera a Cuautempan",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -14379,7 +14391,10 @@
       "properties": {
         "@id": "way/439788831",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "name": "Carretera a Aquixtla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -14850,7 +14865,10 @@
       "properties": {
         "@id": "way/439821852",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "name": "Carr la Cañada a Tecucuilco",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15075,7 +15093,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439821853",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "lF66Ml5z4TO4jFaRxiMy",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15281,7 +15302,10 @@
       "properties": {
         "@id": "way/439821854",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+        "name": "Carr la Cañada a Huauaxla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21702,7 +21726,9 @@
       "properties": {
         "@id": "way/773889750",
         "highway": "residential",
-        "name": "Calle Santa Rosa de Lima"
+        "name": "Calle Santa Rosa de Lima",
+         "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21898,7 +21924,9 @@
         "@id": "way/773891830",
         "highway": "primary",
         "name": "Calle Santa Rosa de Lima",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21971,7 +21999,9 @@
         "@id": "way/773891832",
         "highway": "primary",
         "name": "Calle La Guadalupana",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22023,7 +22053,9 @@
       "properties": {
         "@id": "way/773891834",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+          "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22099,7 +22131,9 @@
         "@id": "way/773891836",
         "highway": "primary",
         "name": "Calle Santa Rosa de Lima",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22149,7 +22183,10 @@
       "properties": {
         "@id": "way/773891837",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "name": "Carr la Soledad Cuacualachaco",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33150,7 +33187,7 @@
         "highway": "residential",
         "name": "5 norte",
          "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "sentido": 	"sur-norte"
       },
       "geometry": {
         "type": "LineString",
@@ -34148,17 +34185,15 @@
       "properties": {
         "@id": "way/774745083",
         "highway": "residential",
-        "name": "Avenida 5 Oriente",
+        "name": "Avenida 5 Oriente (OP)",
         "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "sentido": 	"oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -97.8071332,
-            19.8178764
-          ],
+       
+
           [
             -97.8064956,
             19.8180524
@@ -34875,7 +34910,8 @@
         "@id": "way/774750321",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34898,7 +34934,8 @@
         "@id": "way/774750322",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-        "oneway": "yes"
+          "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -35795,7 +35832,8 @@
         "@id": "way/774753251",
         "highway": "residential",
         "name": "Calle 6 Norte",
-         "oneway": "yes"
+        "oneway": "yes",
+        "sentido": 	"norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -37136,7 +37174,8 @@
         "@id": "way/774863372",
         "highway": "residential",
         "name": "Calle 6 Norte",
-         "oneway": "yes"
+        "oneway": "yes",
+        "sentido": 	"norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -37458,7 +37497,9 @@
       "properties": {
         "@id": "way/774863567",
         "highway": "tertiary",
-        "name": "Carretera a Cuautempan"
+        "name": "Carretera a Cuautempan",
+           "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -53612,7 +53653,10 @@
       "properties": {
         "@id": "way/775324759",
         "highway": "primary",
-        "ref": "PUE 148"
+        "ref": "PUE 148",
+         "name": "Carretera a Aquixtla",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -59574,7 +59618,10 @@
       "properties": {
         "@id": "way/837960510",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr. Zacatepec Zontecomapan",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -61748,6 +61795,7 @@
       "properties": {
         "@id": "way/837960730",
         "highway": "residential"
+        
       },
       "geometry": {
         "type": "LineString",
@@ -61841,7 +61889,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837964129",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "7Z3N7jQqHDXgPJ01HiUZ",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -80125,7 +80176,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838655139",
-        "highway": "unclassified"
+        "highway": "unclassified",
+          "name": "7dl9pNXc1xZ6F7EZjQH7H",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -110381,7 +110435,8 @@
         "@id": "way/944937444",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-        "oneway": "yes"
+           "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -110404,7 +110459,8 @@
         "@id": "way/944937445",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-        "oneway": "yes"
+          "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -112466,7 +112522,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945359694",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "9xnfAcsq9zdD1JXpfoYu",
+        "oneway": "yes",
+        "sentido": 	"doble sentido"
       },
       "geometry": {
         "type": "LineString",
