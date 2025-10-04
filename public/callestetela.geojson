@@ -10,9 +10,9 @@
         "@id": "way/69963244",
         "highway": "primary",
         "ref": "PUE 148",
-         "name": "Carr la Cañada a Huauaxla",
+        "name": "Carr la Cañada a Huauaxla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -4214,7 +4214,10 @@
       "properties": {
         "@id": "way/381173332",
         "highway": "tertiary",
-        "surface": "unpaved"
+        "surface": "unpaved",
+         "name": "Carr. Vista Hermosa - Cuahuigtic",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -6840,7 +6843,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439770627",
-        "highway": "tertiary"
+        "highway": "tertiary",
+        "name": "Carr. Cascadas de Aconco - Atenco",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -10590,8 +10596,8 @@
       "properties": {
         "@id": "way/439779407",
         "highway": "tertiary",
-          "name": "Avenida 7 Poniente Hospital (O-P)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente Hospital (O-P)",
+        "oneway": "yes",
         "sentido": "oriente-poniente"
       },
       "geometry": {
@@ -10626,8 +10632,8 @@
       "properties": {
         "@id": "way/439779408",
         "highway": "tertiary",
-          "name": "Avenida 7 Poniente Tecnica (P-O)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente Tecnica (P-O)",
+        "oneway": "yes",
         "sentido": "poniente-oriente"
       },
       "geometry": {
@@ -10658,8 +10664,8 @@
       "properties": {
         "@id": "way/439779410",
         "highway": "tertiary",
-          "name": "Avenida 7 Poniente (O-P)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente (O-P)",
+        "oneway": "yes",
         "sentido": "oriente-poniente"
       },
       "geometry": {
@@ -10734,7 +10740,6 @@
         "name": "Calle 7 Poniente O",
         "oneway": "yes",
         "sentido": "oriente-poniente"
-        
       },
       "geometry": {
         "type": "LineString",
@@ -10765,8 +10770,8 @@
         "@id": "way/439779420",
         "highway": "tertiary",
         "name": "Avenida La Paz O",
-             "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -11088,8 +11093,8 @@
         "@id": "way/439779440",
         "highway": "residential",
         "name": "Calle El Callejón",
-         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -11117,7 +11122,7 @@
         "highway": "residential",
         "name": "Calle 5 Poniente",
         "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -11138,8 +11143,6 @@
             -97.8064956,
             19.8180524
           ]
-          
-
         ]
       },
       "id": "way/439779441"
@@ -11150,8 +11153,8 @@
         "@id": "way/439779445",
         "highway": "residential",
         "name": "Calle 20 de Noviembre",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11194,8 +11197,8 @@
         "@id": "way/439779447",
         "highway": "residential",
         "name": "Avenida 7 Sur",
-           "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11349,9 +11352,8 @@
         "@id": "way/439779454",
         "highway": "unclassified",
         "name": "Avenida 3 Sur",
-         "oneway": "yes",
+        "oneway": "yes",
         "sentido": "sur-norte"
-        
       },
       "geometry": {
         "type": "LineString",
@@ -11391,7 +11393,7 @@
         "highway": "residential",
         "name": "Avenida 2 Norte",
         "oneway": "yes",
-        "sentido": 	"sur-norte"
+        "sentido": "sur-norte"
       },
       "geometry": {
         "type": "LineString",
@@ -11541,7 +11543,7 @@
       "properties": {
         "@id": "way/439779466",
         "highway": "unclassified",
-         "name": "Carr. Tetela al Puerto",
+        "name": "Carr. Tetela al Puerto",
         "oneway": "yes",
         "sentido": "doble sentido"
       },
@@ -11784,15 +11786,14 @@
       },
       "id": "way/439779466"
     },
-
     {
       "type": "Feature",
       "properties": {
         "@id": "way/439779469",
         "highway": "tertiary",
         "name": "Autolavado Cam Bennto juarez",
-          "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11824,20 +11825,19 @@
           [
             -97.8024561,
             19.8178681
-          ] 
+          ]
         ]
       },
       "id": "way/439779469"
     },
-
     {
       "type": "Feature",
       "properties": {
         "@id": "way/439779469",
         "highway": "tertiary",
         "name": "Carr Tetela al Puerto por Juarez",
-          "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -12166,10 +12166,6 @@
       },
       "id": "way/439779469"
     },
-
-
-
-
     {
       "type": "Feature",
       "properties": {
@@ -12237,9 +12233,9 @@
       "properties": {
         "@id": "way/439786823",
         "highway": "tertiary",
-          "name": "Carretera a Cuautempan",
+        "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -13353,7 +13349,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439786847",
-        "highway": "tertiary"
+        "highway": "tertiary",
+        "name": "Carr. Tempextla",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -14395,9 +14394,9 @@
         "@id": "way/439788831",
         "highway": "primary",
         "ref": "PUE 148",
-         "name": "Carretera a Aquixtla",
+        "name": "Carretera a Aquixtla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -14869,9 +14868,9 @@
         "@id": "way/439821852",
         "highway": "primary",
         "ref": "PUE 148",
-         "name": "Carr la Cañada a Tecucuilco",
+        "name": "Carr la Cañada a Tecucuilco",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15099,7 +15098,7 @@
         "highway": "unclassified",
         "name": "lF66Ml5z4TO4jFaRxiMy",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15308,7 +15307,7 @@
         "ref": "PUE 148",
         "name": "Carr la Cañada a Huauaxla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15911,7 +15910,7 @@
         "source:geometry": "LGL, www.lgl-bw.de",
         "name": "Carr. Las Besanas Ilotepec",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -16734,8 +16733,8 @@
         "@id": "way/667589529",
         "highway": "residential",
         "name": "Calle 2 Oriente",
-         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -17454,7 +17453,10 @@
       "properties": {
         "@id": "way/773876715",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr. San Jose - Muyuapan",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -19410,9 +19412,9 @@
       "properties": {
         "@id": "way/773884527",
         "highway": "unclassified",
-          "name": "Carr el Puerto al Mirador la Cumbre",
-         "oneway": "yes",
-         "sentido": "doble sentido"
+        "name": "Carr el Puerto - Mirador la Cumbre",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21742,8 +21744,8 @@
         "@id": "way/773889750",
         "highway": "residential",
         "name": "Calle Santa Rosa de Lima",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21940,8 +21942,8 @@
         "highway": "primary",
         "name": "Calle Santa Rosa de Lima",
         "ref": "PUE 148",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22015,8 +22017,8 @@
         "highway": "primary",
         "name": "Calle La Guadalupana",
         "ref": "PUE 148",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22069,8 +22071,8 @@
         "@id": "way/773891834",
         "highway": "primary",
         "ref": "PUE 148",
-          "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22147,8 +22149,8 @@
         "highway": "primary",
         "name": "Calle Santa Rosa de Lima",
         "ref": "PUE 148",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22199,9 +22201,9 @@
         "@id": "way/773891837",
         "highway": "primary",
         "ref": "PUE 148",
-         "name": "Carr la Soledad Cuacualachaco",
+        "name": "Carr la Soledad Cuacualachaco",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22818,7 +22820,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773892156",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Vulevar a Deportivo",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22880,7 +22885,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773892158",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Vulevar La Soledad",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -23107,7 +23115,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773892902",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Vulevar La Soledad",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -23136,7 +23147,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773892903",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr Vulevar La Soledad",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -23268,7 +23282,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773893486",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. La Soledad a Vuena Vista",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -24328,7 +24345,9 @@
       "properties": {
         "@id": "way/774689787",
         "highway": "residential",
-        "name": "Avenida Tamanco"
+        "name": "Avenida Tamuanco",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -24377,7 +24396,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774689788",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Avenida Tamuanco",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -24483,7 +24505,9 @@
       "properties": {
         "@id": "way/774689789",
         "highway": "residential",
-        "name": "Prolongación Chapultepec"
+        "name": "Prolongación Chapultepec",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30189,7 +30213,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774725443",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr. Juarez - La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30386,7 +30413,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774725444",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr. Juarez - La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30519,7 +30549,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774725445",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Juarez - La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30919,10 +30952,9 @@
       "properties": {
         "@id": "way/774731055",
         "highway": "unclassified",
-          "name": "Carr. Tetela al Puerto",
+        "name": "Carr. Tetela al Puerto",
         "oneway": "yes",
         "sentido": "doble sentido"
-
       },
       "geometry": {
         "type": "LineString",
@@ -31123,7 +31155,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774731062",
-        "highway": "residential"
+        "highway": "residential",
+         "name": "Carr. Juarez - La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31229,7 +31264,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774734221",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr. Juarez - La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31371,7 +31409,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774734223",
-        "highway": "residential"
+        "highway": "residential",
+       "name": "Carr. La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31433,7 +31474,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774734300",
-        "highway": "residential"
+        "highway": "residential",
+         "name": "Carr. Juárez - La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31656,7 +31700,10 @@
       "properties": {
         "@id": "way/774735926",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr. Tetela Tatzalan",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -32290,7 +32337,9 @@
       "properties": {
         "@id": "way/774738024",
         "highway": "residential",
-        "name": "Calle 2 Sur"
+        "name": "Calle 2 Sur",
+         "oneway": "yes",
+        "sentido": "doble sentido"       
       },
       "geometry": {
         "type": "LineString",
@@ -32364,7 +32413,9 @@
       "properties": {
         "@id": "way/774738025",
         "highway": "residential",
-        "name": "Calle 2 Sur"
+        "name": "Calle 2 Sur",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -32669,7 +32720,6 @@
         "@id": "way/774738451",
         "highway": "unclassified",
         "name": "Calle Diagonal 2 Sur"
-         
       },
       "geometry": {
         "type": "LineString",
@@ -33101,7 +33151,9 @@
       "properties": {
         "@id": "way/774741183",
         "highway": "residential",
-        "name": "Avenida Tamanco"
+        "name": "Avenida Tamuanco",
+        "oneway": "yes",
+        "sentido": "doble sentido"        
       },
       "geometry": {
         "type": "LineString",
@@ -33145,7 +33197,7 @@
         "highway": "residential",
         "name": "Avenida 5 Norte",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33173,7 +33225,7 @@
         "highway": "residential",
         "name": "Avenida 5 Norte",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33208,8 +33260,8 @@
         "@id": "way/774743116",
         "highway": "residential",
         "name": "5 norte",
-         "oneway": "yes",
-        "sentido": 	"sur-norte"
+        "oneway": "yes",
+        "sentido": "sur-norte"
       },
       "geometry": {
         "type": "LineString",
@@ -33258,8 +33310,8 @@
         "@id": "way/774743118",
         "highway": "residential",
         "name": "Calle 5 Sur",
-         "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -33305,7 +33357,9 @@
       "properties": {
         "@id": "way/774743120",
         "highway": "residential",
-        "name": "Calle 2 Sur"
+        "name": "Calle 2 Sur",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33735,7 +33789,9 @@
       "properties": {
         "@id": "way/774743137",
         "highway": "residential",
-        "name": "Calle 4 Oriente"
+        "name": "Calle 4 Oriente",
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -33922,7 +33978,7 @@
         "highway": "residential",
         "name": "hola",
         "oneway": "yes",
-        "sentido": 	"ninguno"
+        "sentido": "ninguno"
       },
       "geometry": {
         "type": "LineString",
@@ -33973,9 +34029,9 @@
       "properties": {
         "@id": "way/774745076",
         "highway": "tertiary",
-          "name": "Cam Municipal Benito Juarez",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "name": "Cam Municipal Benito Juarez",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34063,8 +34119,8 @@
         "@id": "way/774745078",
         "highway": "tertiary",
         "name": "Avenida La Paz P",
-            "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -34111,8 +34167,8 @@
         "@id": "way/774745079",
         "highway": "residential",
         "name": "Avenida 3 Poniente",
-         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -34151,8 +34207,8 @@
         "@id": "way/774745081",
         "highway": "tertiary",
         "name": "Calle 20 de Noviembre",
-          "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -34183,8 +34239,8 @@
         "@id": "way/774745082",
         "highway": "residential",
         "name": "Avenida 3 Oriente",
-         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -34201,7 +34257,6 @@
       },
       "id": "way/774745082"
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -34209,20 +34264,15 @@
         "highway": "residential",
         "name": "Avenida 5 Oriente (OP)",
         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-       
-
           [
             -97.8064956,
             19.8180524
           ],
-          
-
-
           [
             -97.8058175,
             19.8182281
@@ -34251,8 +34301,6 @@
       },
       "id": "way/774745083"
     },
-
-
     {
       "type": "Feature",
       "properties": {
@@ -34260,13 +34308,11 @@
         "highway": "residential",
         "name": "Avenida 5 Oriente",
         "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          
-
           [
             -97.8058175,
             19.8182281
@@ -34295,11 +34341,6 @@
       },
       "id": "way/774745083"
     },
-
-
-
-
-
     {
       "type": "Feature",
       "properties": {
@@ -34330,7 +34371,6 @@
         "name": "Calle 3 Norte",
         "oneway": "yes",
         "sentido": "sur-norte"
-   
       },
       "geometry": {
         "type": "LineString",
@@ -34353,8 +34393,8 @@
         "@id": "way/774745700",
         "highway": "unclassified",
         "name": "Calle Diagonal 2 Sur",
-          "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34680,7 +34720,9 @@
       "properties": {
         "@id": "way/774747765",
         "highway": "residential",
-        "name": "Calle 2 Sur"
+        "name": "Calle 2 Sur",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34824,7 +34866,6 @@
         "name": "Avenida 7 Poniente DS",
         "oneway": "yes",
         "sentido": "doble sentido"
-        
       },
       "geometry": {
         "type": "LineString",
@@ -34892,7 +34933,7 @@
         "@id": "way/774750320",
         "highway": "tertiary",
         "name": "Avenida 7 Poniente (P-O)",
-       "oneway": "yes",
+        "oneway": "yes",
         "sentido": "poniente-oriente"
       },
       "geometry": {
@@ -34933,7 +34974,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34956,8 +34997,8 @@
         "@id": "way/774750322",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-          "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -35022,8 +35063,8 @@
         "@id": "way/774750325",
         "highway": "tertiary",
         "name": "Avenida La Paz O",
-         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -35050,8 +35091,8 @@
         "@id": "way/774750326",
         "highway": "tertiary",
         "name": "Avenida La Paz P",
-             "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -35077,9 +35118,9 @@
       "properties": {
         "@id": "way/774750327",
         "highway": "tertiary",
-          "name": "Avenida La Paz P",
-             "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "name": "Avenida La Paz P",
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -35117,9 +35158,9 @@
       "properties": {
         "@id": "way/774750328",
         "highway": "tertiary",
-          "name": "Avenida La Paz O",
-             "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "name": "Avenida La Paz O",
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -35175,8 +35216,8 @@
         "@id": "way/774750330",
         "highway": "tertiary",
         "name": "Avenida La Paz P",
-             "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -35538,9 +35579,9 @@
       "properties": {
         "@id": "way/774750845",
         "highway": "residential",
-         "name": "Calle El Callejón",
-         "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "name": "Calle El Callejón",
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -35563,7 +35604,8 @@
         "@id": "way/774750846",
         "highway": "residential",
         "name": "Calle 2 Sur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -35590,7 +35632,9 @@
         "@id": "way/774750847",
         "highway": "residential",
         "name": "Calle 2 Poniente",
-        "source": "Bing"
+        "source": "Bing",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -35712,8 +35756,7 @@
         "highway": "residential",
         "name": "Avenida 4 Norte",
         "oneway": "yes",
-        "sentido": 	"norte-sur"
-        
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -35741,9 +35784,7 @@
         "highway": "residential",
         "name": "Avenida Plaza de la Constitución",
         "oneway": "yes",
-    "sentido": "sur-norte"
-       
-
+        "sentido": "sur-norte"
       },
       "geometry": {
         "type": "LineString",
@@ -35768,8 +35809,6 @@
         "name": "Avenida 3 Norte",
         "oneway": "yes",
         "sentido": "sur-norte"
-    
-        
       },
       "geometry": {
         "type": "LineString",
@@ -35792,8 +35831,8 @@
         "@id": "way/774753248",
         "highway": "residential",
         "name": "Avenida 5 de Mayo",
-         "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -35855,7 +35894,7 @@
         "highway": "residential",
         "name": "Calle 6 Norte",
         "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -35894,9 +35933,8 @@
         "@id": "way/774754148",
         "highway": "residential",
         "name": "Avenida Plaza de la Constitución",
-         "oneway": "yes",
-        "sentido": 	"norte-sur"
-       
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -36000,8 +36038,8 @@
         "@id": "way/774757796",
         "highway": "residential",
         "name": "Calle 4 Norte",
-      "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -36037,7 +36075,7 @@
         "highway": "residential",
         "name": "Avenida 5 Poniente",
         "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -36700,9 +36738,9 @@
       "properties": {
         "@id": "way/774860822",
         "highway": "residential",
-         "name": "Avenida La Paz Pollos",
-             "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "name": "Avenida La Paz Pollos",
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -37131,8 +37169,8 @@
         "@id": "way/774862100",
         "highway": "tertiary",
         "name": "Calle Nueva",
-         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37173,7 +37211,6 @@
         "name": "Avenida 16 de Septiembre",
         "oneway": "yes",
         "sentido": "doble sentido"
-
       },
       "geometry": {
         "type": "LineString",
@@ -37197,7 +37234,7 @@
         "highway": "residential",
         "name": "Calle 6 Norte",
         "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -37520,8 +37557,8 @@
         "@id": "way/774863567",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-           "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -44894,7 +44931,7 @@
         "highway": "tertiary",
         "name": "Avenida Principal",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -44954,7 +44991,7 @@
         "highway": "tertiary",
         "name": "Carr. Puente Seco Centro Escolar",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -52896,9 +52933,9 @@
         "@id": "way/775131247",
         "highway": "unclassified",
         "source": "digitalglobe",
-         "name": "Carr. Xaltatempa Xilitetitla",
+        "name": "Carr. Xaltatempa Xilitetitla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -53684,9 +53721,9 @@
         "@id": "way/775324759",
         "highway": "primary",
         "ref": "PUE 148",
-         "name": "Carretera a Aquixtla",
+        "name": "Carretera a Aquixtla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -59649,9 +59686,9 @@
         "@id": "way/837960510",
         "highway": "unclassified",
         "source": "digitalglobe",
-         "name": "Carr. Ometepetl Taxco",
+        "name": "Carr. Ometepetl Taxco",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -61825,7 +61862,6 @@
       "properties": {
         "@id": "way/837960730",
         "highway": "residential"
-        
       },
       "geometry": {
         "type": "LineString",
@@ -61922,7 +61958,7 @@
         "highway": "residential",
         "name": "7Z3N7jQqHDXgPJ01HiUZ",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -65328,7 +65364,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837985742",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr. Chalahuico - Atenti Oriente",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -67369,1056 +67408,16 @@
       },
       "id": "way/837988007"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/838351509",
-        "highway": "unclassified"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.8873039,
-            19.7560714
-          ],
-          [
-            -97.8868908,
-            19.756026
-          ],
-          [
-            -97.8866762,
-            19.7560209
-          ],
-          [
-            -97.8863919,
-            19.7559351
-          ],
-          [
-            -97.8860191,
-            19.7558948
-          ],
-          [
-            -97.8852224,
-            19.7557584
-          ],
-          [
-            -97.8851473,
-            19.7557167
-          ],
-          [
-            -97.8851084,
-            19.7556776
-          ],
-          [
-            -97.885083,
-            19.755617
-          ],
-          [
-            -97.8850374,
-            19.7554858
-          ],
-          [
-            -97.8850025,
-            19.7553406
-          ],
-          [
-            -97.8849334,
-            19.755039
-          ],
-          [
-            -97.8849053,
-            19.7549815
-          ],
-          [
-            -97.8848697,
-            19.7549329
-          ],
-          [
-            -97.8847812,
-            19.7548622
-          ],
-          [
-            -97.8846645,
-            19.7547764
-          ],
-          [
-            -97.8845682,
-            19.7547062
-          ],
-          [
-            -97.8844499,
-            19.7546199
-          ],
-          [
-            -97.8841724,
-            19.7542867
-          ],
-          [
-            -97.8840584,
-            19.7541264
-          ],
-          [
-            -97.8839766,
-            19.7540279
-          ],
-          [
-            -97.8838988,
-            19.7539699
-          ],
-          [
-            -97.8838116,
-            19.7539307
-          ],
-          [
-            -97.8834817,
-            19.7537427
-          ],
-          [
-            -97.8833368,
-            19.753624
-          ],
-          [
-            -97.8832316,
-            19.7535471
-          ],
-          [
-            -97.8831887,
-            19.7535123
-          ],
-          [
-            -97.8831417,
-            19.7534651
-          ],
-          [
-            -97.8831102,
-            19.7534082
-          ],
-          [
-            -97.8830807,
-            19.7533211
-          ],
-          [
-            -97.8830472,
-            19.7531583
-          ],
-          [
-            -97.8829908,
-            19.753051
-          ],
-          [
-            -97.8829104,
-            19.7529665
-          ],
-          [
-            -97.8826851,
-            19.7526761
-          ],
-          [
-            -97.8826294,
-            19.7526257
-          ],
-          [
-            -97.8825724,
-            19.7525436
-          ],
-          [
-            -97.8825429,
-            19.7524414
-          ],
-          [
-            -97.8825134,
-            19.7523493
-          ],
-          [
-            -97.8824557,
-            19.7522596
-          ],
-          [
-            -97.882378,
-            19.7521738
-          ],
-          [
-            -97.8822103,
-            19.7520097
-          ],
-          [
-            -97.8821205,
-            19.7519453
-          ],
-          [
-            -97.8820521,
-            19.7518683
-          ],
-          [
-            -97.8819475,
-            19.7516689
-          ],
-          [
-            -97.881867,
-            19.7515099
-          ],
-          [
-            -97.8817999,
-            19.7514417
-          ],
-          [
-            -97.8817195,
-            19.7513862
-          ],
-          [
-            -97.8814084,
-            19.7511261
-          ],
-          [
-            -97.8809336,
-            19.7506642
-          ],
-          [
-            -97.8807002,
-            19.7504799
-          ],
-          [
-            -97.8804294,
-            19.7502981
-          ],
-          [
-            -97.8803287,
-            19.7502111
-          ],
-          [
-            -97.880192,
-            19.7501366
-          ],
-          [
-            -97.8798795,
-            19.7500457
-          ],
-          [
-            -97.8795536,
-            19.7499473
-          ],
-          [
-            -97.8793672,
-            19.7499056
-          ],
-          [
-            -97.8791634,
-            19.7498867
-          ],
-          [
-            -97.8789541,
-            19.749922
-          ],
-          [
-            -97.8787583,
-            19.7499649
-          ],
-          [
-            -97.878537,
-            19.7500066
-          ],
-          [
-            -97.878415,
-            19.7500293
-          ],
-          [
-            -97.878305,
-            19.7500155
-          ],
-          [
-            -97.8781937,
-            19.7499801
-          ],
-          [
-            -97.8780663,
-            19.7499384
-          ],
-          [
-            -97.8777686,
-            19.7498677
-          ],
-          [
-            -97.8771517,
-            19.7498614
-          ],
-          [
-            -97.8768566,
-            19.7498993
-          ],
-          [
-            -97.8766179,
-            19.7499422
-          ],
-          [
-            -97.8764704,
-            19.7500205
-          ],
-          [
-            -97.8763899,
-            19.7500773
-          ],
-          [
-            -97.8763269,
-            19.7501315
-          ],
-          [
-            -97.8762746,
-            19.7502048
-          ],
-          [
-            -97.8762478,
-            19.7504622
-          ],
-          [
-            -97.8761888,
-            19.75075
-          ],
-          [
-            -97.8760815,
-            19.7508712
-          ],
-          [
-            -97.8759554,
-            19.7509394
-          ],
-          [
-            -97.8756523,
-            19.7510504
-          ],
-          [
-            -97.8753519,
-            19.7511363
-          ],
-          [
-            -97.8750998,
-            19.7511615
-          ],
-          [
-            -97.8749657,
-            19.7512044
-          ],
-          [
-            -97.8748289,
-            19.7512751
-          ],
-          [
-            -97.8746237,
-            19.7514152
-          ],
-          [
-            -97.8745365,
-            19.7515288
-          ],
-          [
-            -97.8744695,
-            19.7516588
-          ],
-          [
-            -97.8743662,
-            19.7517535
-          ],
-          [
-            -97.8742522,
-            19.7518078
-          ],
-          [
-            -97.8741489,
-            19.7518608
-          ],
-          [
-            -97.8740256,
-            19.7519781
-          ],
-          [
-            -97.8738995,
-            19.7521359
-          ],
-          [
-            -97.8738418,
-            19.7522924
-          ],
-          [
-            -97.8738284,
-            19.7523707
-          ],
-          [
-            -97.8738043,
-            19.7524224
-          ],
-          [
-            -97.873752,
-            19.7524616
-          ],
-          [
-            -97.8736655,
-            19.7524805
-          ],
-          [
-            -97.8735133,
-            19.752478
-          ],
-          [
-            -97.8734355,
-            19.7524792
-          ],
-          [
-            -97.873355,
-            19.7524995
-          ],
-          [
-            -97.8732967,
-            19.7525417
-          ],
-          [
-            -97.8732517,
-            19.7525954
-          ],
-          [
-            -97.8732028,
-            19.7526667
-          ],
-          [
-            -97.8731659,
-            19.7526875
-          ],
-          [
-            -97.8731129,
-            19.7527064
-          ],
-          [
-            -97.8730211,
-            19.7527127
-          ],
-          [
-            -97.8728427,
-            19.7527367
-          ],
-          [
-            -97.8727072,
-            19.7527847
-          ],
-          [
-            -97.8725503,
-            19.7528667
-          ],
-          [
-            -97.8724484,
-            19.7528945
-          ],
-          [
-            -97.8723452,
-            19.7529033
-          ],
-          [
-            -97.8721708,
-            19.7528907
-          ],
-          [
-            -97.871967,
-            19.7528945
-          ],
-          [
-            -97.8717698,
-            19.752897
-          ],
-          [
-            -97.8716652,
-            19.7528945
-          ],
-          [
-            -97.8715633,
-            19.7528756
-          ],
-          [
-            -97.8714359,
-            19.7528503
-          ],
-          [
-            -97.8713152,
-            19.7528024
-          ],
-          [
-            -97.8712092,
-            19.752743
-          ],
-          [
-            -97.8711033,
-            19.7526409
-          ],
-          [
-            -97.8709746,
-            19.7524692
-          ],
-          [
-            -97.8706661,
-            19.7521082
-          ],
-          [
-            -97.8703643,
-            19.7518469
-          ],
-          [
-            -97.8700305,
-            19.7516007
-          ],
-          [
-            -97.8698762,
-            19.7514543
-          ],
-          [
-            -97.8697353,
-            19.75126
-          ],
-          [
-            -97.8695557,
-            19.7510631
-          ],
-          [
-            -97.8694618,
-            19.7509772
-          ],
-          [
-            -97.8693719,
-            19.7509532
-          ],
-          [
-            -97.869266,
-            19.7509293
-          ],
-          [
-            -97.8690675,
-            19.7508901
-          ],
-          [
-            -97.8689361,
-            19.7508573
-          ],
-          [
-            -97.8688623,
-            19.7508258
-          ],
-          [
-            -97.8687859,
-            19.7507778
-          ],
-          [
-            -97.8685981,
-            19.7506314
-          ],
-          [
-            -97.8685029,
-            19.7505834
-          ],
-          [
-            -97.8684291,
-            19.7505228
-          ],
-          [
-            -97.8683688,
-            19.750437
-          ],
-          [
-            -97.8683098,
-            19.7503537
-          ],
-          [
-            -97.8682159,
-            19.7502969
-          ],
-          [
-            -97.8681475,
-            19.7502666
-          ],
-          [
-            -97.8680724,
-            19.7502502
-          ],
-          [
-            -97.8674501,
-            19.7502148
-          ],
-          [
-            -97.8674032,
-            19.7501877
-          ],
-          [
-            -97.8673723,
-            19.7501328
-          ],
-          [
-            -97.8673187,
-            19.7500142
-          ],
-          [
-            -97.867198,
-            19.7497352
-          ],
-          [
-            -97.8671256,
-            19.7496595
-          ],
-          [
-            -97.8669928,
-            19.7495787
-          ],
-          [
-            -97.8668855,
-            19.749479
-          ],
-          [
-            -97.8668292,
-            19.749402
-          ],
-          [
-            -97.8667755,
-            19.7492997
-          ],
-          [
-            -97.8666562,
-            19.7492795
-          ],
-          [
-            -97.8664013,
-            19.7493414
-          ],
-          [
-            -97.8660366,
-            19.7491041
-          ],
-          [
-            -97.8643401,
-            19.7480627
-          ],
-          [
-            -97.8642395,
-            19.7480274
-          ],
-          [
-            -97.8636709,
-            19.7480817
-          ],
-          [
-            -97.8635663,
-            19.7480539
-          ],
-          [
-            -97.8632391,
-            19.7477409
-          ],
-          [
-            -97.8630862,
-            19.7474039
-          ],
-          [
-            -97.8629601,
-            19.7472474
-          ],
-          [
-            -97.8622788,
-            19.7468876
-          ],
-          [
-            -97.8622466,
-            19.7468409
-          ],
-          [
-            -97.862134,
-            19.7466251
-          ],
-          [
-            -97.8620052,
-            19.7464989
-          ],
-          [
-            -97.861501,
-            19.7462262
-          ],
-          [
-            -97.8606641,
-            19.7457213
-          ],
-          [
-            -97.8605555,
-            19.7456052
-          ],
-          [
-            -97.860353,
-            19.7454386
-          ],
-          [
-            -97.8601103,
-            19.7453565
-          ],
-          [
-            -97.8598166,
-            19.7451053
-          ],
-          [
-            -97.8589435,
-            19.7446408
-          ],
-          [
-            -97.8588228,
-            19.7445941
-          ],
-          [
-            -97.8583963,
-            19.744502
-          ],
-          [
-            -97.8581965,
-            19.7444086
-          ],
-          [
-            -97.8566462,
-            19.743684
-          ],
-          [
-            -97.8564074,
-            19.7434745
-          ],
-          [
-            -97.8557181,
-            19.7425808
-          ],
-          [
-            -97.8555129,
-            19.7422362
-          ],
-          [
-            -97.8554499,
-            19.7420153
-          ],
-          [
-            -97.8555572,
-            19.7412276
-          ],
-          [
-            -97.8557503,
-            19.7401673
-          ],
-          [
-            -97.8557275,
-            19.7400726
-          ],
-          [
-            -97.8556725,
-            19.7399893
-          ],
-          [
-            -97.855238,
-            19.7397962
-          ],
-          [
-            -97.8550154,
-            19.7396725
-          ],
-          [
-            -97.8545621,
-            19.7391297
-          ],
-          [
-            -97.8544656,
-            19.7390792
-          ],
-          [
-            -97.8543851,
-            19.7390868
-          ],
-          [
-            -97.8543422,
-            19.7391019
-          ],
-          [
-            -97.8541691,
-            19.7393305
-          ],
-          [
-            -97.8539425,
-            19.7396864
-          ],
-          [
-            -97.8538594,
-            19.7397647
-          ],
-          [
-            -97.8535724,
-            19.7399578
-          ],
-          [
-            -97.8533994,
-            19.7402418
-          ],
-          [
-            -97.8532693,
-            19.7403339
-          ],
-          [
-            -97.8531272,
-            19.7403882
-          ],
-          [
-            -97.8529581,
-            19.7403958
-          ],
-          [
-            -97.8528066,
-            19.7403478
-          ],
-          [
-            -97.8527395,
-            19.7402784
-          ],
-          [
-            -97.8524445,
-            19.7396434
-          ],
-          [
-            -97.8523868,
-            19.7395917
-          ],
-          [
-            -97.8521065,
-            19.7394794
-          ],
-          [
-            -97.8520583,
-            19.739449
-          ],
-          [
-            -97.8520274,
-            19.7394099
-          ],
-          [
-            -97.8519738,
-            19.738698
-          ],
-          [
-            -97.8518557,
-            19.7385036
-          ],
-          [
-            -97.8514373,
-            19.7382991
-          ],
-          [
-            -97.8510296,
-            19.7382284
-          ],
-          [
-            -97.8503805,
-            19.738443
-          ],
-          [
-            -97.8502693,
-            19.7384569
-          ],
-          [
-            -97.8501552,
-            19.7384342
-          ],
-          [
-            -97.8495343,
-            19.7380732
-          ],
-          [
-            -97.8494458,
-            19.7380252
-          ],
-          [
-            -97.8493385,
-            19.7379999
-          ],
-          [
-            -97.84914,
-            19.7380454
-          ],
-          [
-            -97.849073,
-            19.7380542
-          ],
-          [
-            -97.8489845,
-            19.7380378
-          ],
-          [
-            -97.8481329,
-            19.7376831
-          ],
-          [
-            -97.8478003,
-            19.737471
-          ],
-          [
-            -97.8466831,
-            19.7362327
-          ],
-          [
-            -97.8466402,
-            19.7361797
-          ],
-          [
-            -97.8465866,
-            19.736138
-          ],
-          [
-            -97.8465289,
-            19.7361254
-          ],
-          [
-            -97.8463881,
-            19.736215
-          ],
-          [
-            -97.8463049,
-            19.7362226
-          ],
-          [
-            -97.8461923,
-            19.7361809
-          ],
-          [
-            -97.8458476,
-            19.7359361
-          ],
-          [
-            -97.8457685,
-            19.7358502
-          ],
-          [
-            -97.8457323,
-            19.7358162
-          ],
-          [
-            -97.8457041,
-            19.7358142
-          ],
-          [
-            -97.8456733,
-            19.7358287
-          ],
-          [
-            -97.845509,
-            19.7360742
-          ],
-          [
-            -97.8454472,
-            19.7361214
-          ],
-          [
-            -97.845218,
-            19.7362447
-          ],
-          [
-            -97.8448069,
-            19.7363476
-          ],
-          [
-            -97.8447331,
-            19.7363665
-          ],
-          [
-            -97.8446728,
-            19.7363602
-          ],
-          [
-            -97.844198,
-            19.7360105
-          ],
-          [
-            -97.8437729,
-            19.7357656
-          ],
-          [
-            -97.8435946,
-            19.7356129
-          ],
-          [
-            -97.8431681,
-            19.7351042
-          ],
-          [
-            -97.8431077,
-            19.735055
-          ],
-          [
-            -97.8430434,
-            19.7350221
-          ],
-          [
-            -97.8423433,
-            19.7348858
-          ],
-          [
-            -97.8421864,
-            19.7348782
-          ],
-          [
-            -97.8420644,
-            19.7348883
-          ],
-          [
-            -97.841945,
-            19.7348618
-          ],
-          [
-            -97.8418793,
-            19.7348113
-          ],
-          [
-            -97.8417291,
-            19.7345652
-          ],
-          [
-            -97.841532,
-            19.7339857
-          ],
-          [
-            -97.841481,
-            19.7336134
-          ],
-          [
-            -97.8410813,
-            19.7329683
-          ],
-          [
-            -97.8407407,
-            19.7322803
-          ],
-          [
-            -97.8407367,
-            19.7322336
-          ],
-          [
-            -97.8407662,
-            19.7321515
-          ],
-          [
-            -97.8408386,
-            19.7319521
-          ],
-          [
-            -97.8408453,
-            19.7318372
-          ],
-          [
-            -97.8408024,
-            19.7317602
-          ],
-          [
-            -97.8406803,
-            19.7316138
-          ]
-        ]
-      },
-      "id": "way/838351509"
-    },
+ 
+
     {
       "type": "Feature",
       "properties": {
         "@id": "way/838354417",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Vuena Vista",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -69155,7 +68154,7 @@
         "highway": "residential",
         "name": "Carr. Rancho Viejo",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -69247,7 +68246,7 @@
         "highway": "unclassified",
         "name": "Carr. Ilotepec Rancho Viejo",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -70581,7 +69580,10 @@
       "properties": {
         "@id": "way/838362924",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr. El Puerto - Tenzoncuahuigtic",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -73114,7 +72116,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838364315",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Zitlalcuautla - Vista Hermosa",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -74647,7 +73652,10 @@
       "properties": {
         "@id": "way/838364322",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr. Zitlalcuautla - Vista Hermosa",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -80213,9 +79221,9 @@
       "properties": {
         "@id": "way/838655139",
         "highway": "unclassified",
-          "name": "7dl9pNXc1xZ6F7EZjQH7H",
+        "name": "7dl9pNXc1xZ6F7EZjQH7H",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -82575,9 +81583,9 @@
         "@id": "way/839029541",
         "highway": "unclassified",
         "source": "digitalglobe",
-         "name": "Carr. Xaltatempa xilitetitla",
+        "name": "Carr. Xaltatempa xilitetitla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -89126,7 +88134,7 @@
         "highway": "unclassified",
         "name": "Carr. Xaltatempa Xilitetitla",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -90084,7 +89092,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839125539",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Carreragco - Chalahuico",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -90557,9 +89568,9 @@
       "properties": {
         "@id": "way/839125942",
         "highway": "tertiary",
-         "name": "Carr. Puente Seco Xaltatempa",
+        "name": "Carr. Puente Seco Xaltatempa",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -96119,7 +95130,7 @@
         "highway": "unclassified",
         "name": "Carr. Ometepetl Taxco",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -96581,8 +95592,8 @@
         "@id": "way/839150000",
         "highway": "unclassified",
         "name": "Carr Zontecomapan Tecuanta",
-         "oneway": "yes",
-         "sentido": "doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -97730,9 +96741,8 @@
         "@id": "way/843293689",
         "highway": "residential",
         "name": "Avenida 16 de Septiembre",
-         "oneway": "yes",
+        "oneway": "yes",
         "sentido": "norte-sur"
-       
       },
       "geometry": {
         "type": "LineString",
@@ -97793,7 +96803,8 @@
         "highway": "residential",
         "layer": "1",
         "name": "Calle 2 Sur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -97816,7 +96827,8 @@
         "@id": "way/843293692",
         "highway": "residential",
         "name": "Calle 2 Sur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -100505,7 +99517,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/936608754",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Carreragco - Chalahuico",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -101142,7 +100157,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/937258523",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr. Carreragco - Chalahuico",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -104144,9 +103162,9 @@
       "properties": {
         "@id": "way/940310013",
         "highway": "unclassified",
-         "name": "Carr el Puerto al Mirador la Cumbre",
-         "oneway": "yes",
-         "sentido": "doble sentido"
+        "name": "Carr Mirador la Cumbre",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -105688,7 +104706,7 @@
       "properties": {
         "@id": "way/941372126",
         "highway": "tertiary",
-          "name": "Calle 7 Poniente O",
+        "name": "Calle 7 Poniente O",
         "oneway": "yes",
         "sentido": "oriente-poniente"
       },
@@ -106218,7 +105236,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/942209381",
-        "highway": "service"
+        "highway": "service",
+        "name": "Carr. Vuena Vista",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -106267,7 +105288,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/942212866",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Vuena Vista",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -106716,9 +105740,9 @@
       "properties": {
         "@id": "way/944497091",
         "highway": "tertiary",
-         "name": "Avenida La Paz P",
-             "oneway": "yes",
-        "sentido": 	"poniente-oriente"
+        "name": "Avenida La Paz P",
+        "oneway": "yes",
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",
@@ -106740,9 +105764,9 @@
       "properties": {
         "@id": "way/944497092",
         "highway": "tertiary",
-         "name": "Avenida La Paz O",
-             "oneway": "yes",
-        "sentido": 	"oriente-poniente"
+        "name": "Avenida La Paz O",
+        "oneway": "yes",
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -110292,8 +109316,8 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
-         "name": "Avenida 7 Poniente (P-O)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente (P-O)",
+        "oneway": "yes",
         "sentido": "poniente-oriente"
       },
       "geometry": {
@@ -110316,8 +109340,8 @@
       "properties": {
         "@id": "way/944668103",
         "highway": "tertiary",
-         "name": "Avenida 7 Poniente (P-O)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente (P-O)",
+        "oneway": "yes",
         "sentido": "poniente-oriente"
       },
       "geometry": {
@@ -110344,8 +109368,8 @@
       "properties": {
         "@id": "way/944668104",
         "highway": "tertiary",
-         "name": "Avenida 7 Poniente (O-P)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente (O-P)",
+        "oneway": "yes",
         "sentido": "oriente-poniente"
       },
       "geometry": {
@@ -110374,8 +109398,8 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
-         "name": "Avenida 7 Poniente (O-P)",
-       "oneway": "yes",
+        "name": "Avenida 7 Poniente (O-P)",
+        "oneway": "yes",
         "sentido": "oriente-poniente"
       },
       "geometry": {
@@ -110489,8 +109513,8 @@
         "@id": "way/944937444",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-           "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -110513,8 +109537,8 @@
         "@id": "way/944937445",
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
-          "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -111304,7 +110328,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945328315",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Mirador la Cumbre",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -111634,9 +110661,9 @@
       "properties": {
         "@id": "way/945328316",
         "highway": "unclassified",
-         "name": "Carr el Puerto al Mirador la Cumbre",
-         "oneway": "yes",
-         "sentido": "doble sentido"
+        "name": "Carr Mirador la Cumbre",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -111889,7 +110916,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945331061",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Calle 2 Sur",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -112036,7 +111066,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945355956",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr. Ronquiyogco Tatzalan",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -112580,9 +111613,9 @@
       "properties": {
         "@id": "way/945359694",
         "highway": "unclassified",
-         "name": "9xnfAcsq9zdD1JXpfoYu",
+        "name": "9xnfAcsq9zdD1JXpfoYu",
         "oneway": "yes",
-        "sentido": 	"doble sentido"
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -114726,7 +113759,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945381669",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr. La Cruz Blanca",
+        "oneway": "yes",
+        "sentido": "doble sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -115259,7 +114295,7 @@
         "highway": "residential",
         "name": "Calle 4 Norte",
         "oneway": "yes",
-        "sentido": 	"norte-sur"
+        "sentido": "norte-sur"
       },
       "geometry": {
         "type": "LineString",
@@ -117918,7 +116954,7 @@
         "@id": "way/949864393",
         "highway": "residential",
         "name": "Avenida 16 de Septiembre",
-         "oneway": "yes",
+        "oneway": "yes",
         "sentido": "doble sentido"
       },
       "geometry": {

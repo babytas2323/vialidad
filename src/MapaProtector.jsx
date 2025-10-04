@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import L from 'leaflet';
+import L, { latLng } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import CallesVialidad from './CallesVialidad';
 
@@ -45,15 +45,15 @@ function MapaProtector() {
     fetch('/callestetela.geojson')
       .then((res) => res.json())
       .then((data) => setGeojsonCalles(data));
-      
   }, []);
+
+
 
   const activarPanico = () => {
     if (!posicion) {
       alert('Ubicación no disponible. No se puede enviar el mensaje.');
       return;
     }
-
     const [lat, lng] = posicion;
     const mensaje = `Emergencia: necesito ayuda. Mi ubicación es https://www.google.com/maps?q=${lat},${lng}`;
     const numero = '5217761125973';
@@ -66,25 +66,23 @@ function MapaProtector() {
       {posicion ? (
         <MapContainer
           center={posicion}
-          zoom={15}
+          zoom={14}
           scrollWheelZoom={true}
           style={{ height: '100%', width: '100%', zIndex: 1 }}
           whenCreated={(mapInstance) => { mapaRef.current = mapInstance; }}
         >
           <TileLayer
-            attribution='&copy; OpenStreetMap'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-
+            attribution="&copy; Google Maps"
+            url="https://mt1.google.com/vt/lyrs=s,r&x={x}&y={y}&z={z}"
+            subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
           />
 
-          
-          
           {geojsonCalles && <CallesVialidad datos={geojsonCalles} />}
           <Marker position={posicion} icon={iconoRadar}>
             <Popup>
               {ubicacionManual
                 ? '📍 Ubicación de respaldo (Tetela de Ocampo)'
-                : '📍 Aquí estás'}
+                : latLng(posicion).toString()} {/*📍 Aquí estás'*/}'
             </Popup>
           </Marker>
         </MapContainer>
@@ -107,7 +105,7 @@ function MapaProtector() {
           position: 'fixed',
           bottom: '1em',
           right: '1em',
-          backgroundColor: '#e74707ff',
+          backgroundColor: '#e70707ff',
           color: 'white',
           padding: '0.8em',
           borderRadius: '50%',
@@ -121,20 +119,19 @@ function MapaProtector() {
       >
         🚨
       </button>
-    
-<img
-  src="/brujula.png"
-  alt="Brújula"
-  style={{
-    position: 'fixed',
-    bottom: '1em',
-    left: '1em',
-    width: '72px',
-    height: '72px',
-    zIndex: 9999,
-  }}
-/>
 
+      <img
+        src="/brujula.png"
+        alt="Brújula"
+        style={{
+          position: 'fixed',
+          bottom: '1em',
+          left: '1em',
+          width: '72px',
+          height: '72px',
+          zIndex: 9999,
+        }}
+      />
     </div>
   );
 }

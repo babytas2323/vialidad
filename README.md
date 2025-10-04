@@ -21,9 +21,15 @@ git status
 git add .  
 git commit -m "Actualizo mapa protector con cambios recientes"  
 git push   
+/*FIN CODIGO PARA SUBIR NUEVOS CAMBIOS A GITHUB Y VERSEL*/
 
-<TileLayer
-           attribution="&copy; Google Maps"
-           url="https://mt1.google.com/vt/lyrs=s,r&x={x}&y={y}&z={z}"
-           subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
-          />
+        "name": "Avenida Tamuanco",
+        "oneway": "yes",
+        "sentido": "doble sentido"
+
+
+        {/*<TileLayer
+            attribution='&copy; OpenStreetMap'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+
+          />*/}
