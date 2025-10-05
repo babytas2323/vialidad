@@ -2,13 +2,12 @@ import { useEffect, useState } from 'react';
 
 function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
-  const [nombreAnterior, setNombreAnterior] = useState(null);
   const [instruccion, setInstruccion] = useState('');
 
-  const UMBRAL_METROS = 0.00010; // ~30 metros en coordenadas
+  const UMBRAL_METROS = 0.0003; // ~30 metros en coordenadas
 
   function interpretarSentido(sentido) {
-    const s = sentido.toLowerCase();
+    const s = sentido?.toLowerCase();
     if (s === 'norte-sur') return 'Avanza hacia el sur.';
     if (s === 'sur-norte') return 'Avanza hacia el norte.';
     if (s === 'poniente-oriente') return 'Avanza hacia el oriente.';
@@ -55,17 +54,23 @@ function GuiaViva({ posicion, geojsonCalles }) {
     if (!guiaActiva || !posicion || !geojsonCalles) return;
 
     const segmento = encontrarSegmento(posicion, geojsonCalles);
-    if (!segmento) return; // silencio si estás fuera del trazado
+    if (!segmento || !segmento.nombre || segmento.nombre === 'Calle sin nombre') return;
 
-    if (segmento.nombre !== nombreAnterior) {
-      setNombreAnterior(segmento.nombre);
+    const segmentoGuardado = JSON.parse(localStorage.getItem('segmentoActual'));
+    if (segmentoGuardado?.nombre === segmento.nombre) return;
 
-      const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
-      setInstruccion(texto);
+    const ahora = Date.now();
+    const ultimo = parseInt(localStorage.getItem('ultimoMensaje') || '0');
+    if (ahora - ultimo < 5000) return;
 
-      const utterance = new SpeechSynthesisUtterance(texto);
-      speechSynthesis.speak(utterance);
-    }
+    localStorage.setItem('segmentoActual', JSON.stringify(segmento));
+    localStorage.setItem('ultimoMensaje', ahora.toString());
+
+    const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
+    setInstruccion(texto);
+
+    const utterance = new SpeechSynthesisUtterance(texto);
+    speechSynthesis.speak(utterance);
   }, [posicion, geojsonCalles, guiaActiva]);
 
   return (
