@@ -75,6 +75,7 @@ function MapaProtector() {
             <TileLayer
               attribution='&copy; OpenStreetMap'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                maxZoom={22}
             />
 
             {geojsonCalles && <CallesVialidad datos={geojsonCalles} />}

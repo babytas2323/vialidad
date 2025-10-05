@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 
 function GuiaViva({ posicion, geojsonCalles }) {
-  const [segmentoActual, setSegmentoActual] = useState(null);
+  const [guiaActiva, setGuiaActiva] = useState(false);
+  const [nombreAnterior, setNombreAnterior] = useState(null);
   const [instruccion, setInstruccion] = useState('');
 
   function interpretarSentido(sentido) {
@@ -48,43 +49,74 @@ function GuiaViva({ posicion, geojsonCalles }) {
     return mejor;
   }
 
-  // Detectar segmento al cambiar posición
   useEffect(() => {
-    if (posicion && geojsonCalles) {
-      const segmento = encontrarSegmento(posicion, geojsonCalles);
-      if (segmento) setSegmentoActual(segmento);
-    }
-  }, [posicion, geojsonCalles]);
+    if (!guiaActiva || !posicion || !geojsonCalles) return;
 
-  // Hablar cada 5 segundos
-  useEffect(() => {
-    if (!segmentoActual) return;
+    const segmento = encontrarSegmento(posicion, geojsonCalles);
+    if (!segmento) return;
 
-    const intervalo = setInterval(() => {
-      const texto = `Estás en ${segmentoActual.nombre}. ${interpretarSentido(segmentoActual.sentido)}`;
+    if (segmento.nombre !== nombreAnterior) {
+      setNombreAnterior(segmento.nombre);
+
+      const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
       setInstruccion(texto);
+
       const utterance = new SpeechSynthesisUtterance(texto);
       speechSynthesis.speak(utterance);
-    }, 5000);
-
-    return () => clearInterval(intervalo);
-  }, [segmentoActual]);
+    }
+  }, [posicion, geojsonCalles, guiaActiva]);
 
   return (
-    <div style={{
-      position: 'fixed',
-      top: '1em',
-      left: '1em',
-      backgroundColor: '#fff',
-      padding: '1em',
-      borderRadius: '8px',
-      boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
-      zIndex: 9999,
-      fontSize: '1em',
-      maxWidth: '300px',
-    }}>
-      🧭 {instruccion}
-    </div>
+    <>
+      {!guiaActiva && (
+        <button
+          onClick={() => {
+            setGuiaActiva(true);
+            const texto = 'Guía activada. Te acompañaré en el camino.';
+            const utterance = new SpeechSynthesisUtterance(texto);
+            speechSynthesis.speak(utterance);
+          }}
+          style={{
+            position: 'fixed',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            width: '52px',
+            height: '52px',
+            backgroundColor: '#007bff',
+            color: 'white',
+            borderRadius: '50%',
+            fontSize: '1.5em',
+            border: '3px solid #ffffffff',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
+            cursor: 'pointer',
+            zIndex: 9999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          🎙️
+        </button>
+      )}
+
+      {guiaActiva && (
+        <div style={{
+          position: 'fixed',
+          top: '1em',
+          left: '1em',
+          backgroundColor: '#fff',
+          padding: '1em',
+          borderRadius: '8px',
+          boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
+          zIndex: 9999,
+          fontSize: '1em',
+          maxWidth: '300px',
+        }}>
+          {instruccion}
+        </div>
+      )}
+    </>
   );
 }
 
