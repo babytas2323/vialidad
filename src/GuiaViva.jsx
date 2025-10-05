@@ -63,24 +63,15 @@ function GuiaViva({ posicion, geojsonCalles }) {
     const ultimo = parseInt(localStorage.getItem('ultimoMensaje') || '0');
     if (ahora - ultimo < 5000) return;
 
+    localStorage.setItem('segmentoActual', JSON.stringify(segmento));
+    localStorage.setItem('ultimoMensaje', ahora.toString());
 
-if (segmento.nombre !== segmentoGuardado?.nombre) {
-  localStorage.setItem('segmentoActual', JSON.stringify(segmento));
-  localStorage.setItem('ultimoMensaje', ahora.toString());
+    const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
+    setInstruccion(texto);
 
-  const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
-  setInstruccion(texto);
-
-  const utterance = new SpeechSynthesisUtterance(texto);
-  speechSynthesis.speak(utterance);
-
-  if (navigator.vibrate) {
-    navigator.vibrate([100, 50, 100]); // vibración ritual
-  }
-}
-
-  },
-   [posicion, geojsonCalles, guiaActiva]);
+    const utterance = new SpeechSynthesisUtterance(texto);
+    speechSynthesis.speak(utterance);
+  }, [posicion, geojsonCalles, guiaActiva]);
 
   return (
     <>
