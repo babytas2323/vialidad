@@ -5,6 +5,8 @@ function GuiaViva({ posicion, geojsonCalles }) {
   const [nombreAnterior, setNombreAnterior] = useState(null);
   const [instruccion, setInstruccion] = useState('');
 
+  const UMBRAL_METROS = 0.00010; // ~30 metros en coordenadas
+
   function interpretarSentido(sentido) {
     const s = sentido.toLowerCase();
     if (s === 'norte-sur') return 'Avanza hacia el sur.';
@@ -42,23 +44,23 @@ function GuiaViva({ posicion, geojsonCalles }) {
         const distancia = distanciaAPunto(pos, a, b);
         if (distancia < distanciaMin) {
           distanciaMin = distancia;
-          mejor = { nombre, sentido };
+          mejor = { nombre, sentido, distancia };
         }
       }
     });
-    return mejor;
+    return mejor && mejor.distancia < UMBRAL_METROS ? mejor : null;
   }
 
   useEffect(() => {
     if (!guiaActiva || !posicion || !geojsonCalles) return;
 
     const segmento = encontrarSegmento(posicion, geojsonCalles);
-    if (!segmento) return;
+    if (!segmento) return; // silencio si estás fuera del trazado
 
     if (segmento.nombre !== nombreAnterior) {
       setNombreAnterior(segmento.nombre);
 
-      const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
+      const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
       setInstruccion(texto);
 
       const utterance = new SpeechSynthesisUtterance(texto);
