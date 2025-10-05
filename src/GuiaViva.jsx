@@ -3,8 +3,9 @@ import { useEffect, useState } from 'react';
 function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
   const [instruccion, setInstruccion] = useState('');
+  const [visible, setVisible] = useState(false);
 
-  const UMBRAL_METROS = 0.0001; // ~30 metros
+  const UMBRAL_METROS = 0.0001;
 
   function interpretarSentido(sentido) {
     const s = sentido?.toLowerCase();
@@ -75,6 +76,9 @@ function GuiaViva({ posicion, geojsonCalles }) {
     }
 
     setInstruccion(texto);
+    setVisible(false); // reset animation
+    setTimeout(() => setVisible(true), 50); // trigger fade-in
+
     speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
     if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
   }, [posicion, geojsonCalles, guiaActiva]);
@@ -116,14 +120,18 @@ function GuiaViva({ posicion, geojsonCalles }) {
         <div style={{
           position: 'fixed',
           top: '1em',
-          left: '1em',
+          left: '50%',
+          transform: 'translateX(-50%)',
           backgroundColor: '#fff',
           padding: '1em',
           borderRadius: '8px',
           boxShadow: '0 2px 6px rgba(0,0,0,0.2)',
           zIndex: 9999,
           fontSize: '1em',
-          maxWidth: '300px',
+          maxWidth: '90%',
+          textAlign: 'center',
+          opacity: visible ? 1 : 0,
+          transition: 'opacity 0.8s ease-in-out',
         }}>
           {instruccion}
         </div>

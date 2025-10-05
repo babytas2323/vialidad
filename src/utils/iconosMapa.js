@@ -8,16 +8,16 @@ export const iconoRadar = L.divIcon({
 
 export const iconoEstacionamiento = L.divIcon({
   html: `
-    <div style="background-color: #e74607ff; border: 0px solid white; border-radius: 50%; width: 23px; height: 23px; display: flex; align-items: center; justify-content: center;">
-      <i class="bi bi-p-circle" style="font-size: 16px; color: white;"></i>
+    <div style="background-color: #e74607ff; border: 0px solid white; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;">
+      <i class="bi bi-p-circle" style="font-size: 20px; color: white;"></i>
     </div>`,
   className: '', iconSize: [32, 32],
 });
 
 export const iconoComida = L.divIcon({
   html: `
-    <div style="background-color: #fd7d04ff; border: 2px solid white; border-radius: 50%; width: 22px; height: 22px; display: flex; align-items: center; justify-content: center;">
-      <i class="bi bi-fork-knife" style="font-size: 15px; color: white;"></i>
+    <div style="background-color: #fd7d04ff; border: 2px solid white; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;">
+      <i class="bi bi-fork-knife" style="font-size: 20px; color: white;"></i>
     </div>`,
   className: '', iconSize: [32, 32],
 });
