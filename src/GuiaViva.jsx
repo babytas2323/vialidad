@@ -4,7 +4,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
   const [instruccion, setInstruccion] = useState('');
 
-  const UMBRAL_METROS = 0.0003; // ~30 metros en coordenadas
+  const UMBRAL_METROS = 0.0001; // ~30 metros en coordenadas
 
   function interpretarSentido(sentido) {
     const s = sentido?.toLowerCase();
@@ -66,7 +66,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
     localStorage.setItem('segmentoActual', JSON.stringify(segmento));
     localStorage.setItem('ultimoMensaje', ahora.toString());
 
-    const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
+    const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
     setInstruccion(texto);
 
     const utterance = new SpeechSynthesisUtterance(texto);
