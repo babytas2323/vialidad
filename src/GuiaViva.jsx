@@ -4,7 +4,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
   const [instruccion, setInstruccion] = useState('');
 
-  const UMBRAL_METROS = 0.0003; // ~30 metros en coordenadas
+  const UMBRAL_METROS = 0.0001; // ~30 metros
 
   function interpretarSentido(sentido) {
     const s = sentido?.toLowerCase();
@@ -32,49 +32,51 @@ function GuiaViva({ posicion, geojsonCalles }) {
     return Math.sqrt(dx * dx + dy * dy);
   }
 
-  function encontrarSegmento(pos, geojson) {
-    let mejor = null, distanciaMin = Infinity;
+  function detectarCallesCercanas(pos, geojson) {
+    const calles = new Set();
     geojson.features.forEach((feature) => {
       const coords = feature.geometry.coordinates;
       const nombre = feature.properties.name || 'Calle sin nombre';
-      const sentido = feature.properties.sentido || 'desconocido';
       for (let i = 0; i < coords.length - 1; i++) {
         const a = coords[i], b = coords[i + 1];
         const distancia = distanciaAPunto(pos, a, b);
-        if (distancia < distanciaMin) {
-          distanciaMin = distancia;
-          mejor = { nombre, sentido, distancia };
+        if (distancia < UMBRAL_METROS) {
+          calles.add(nombre);
         }
       }
     });
-    return mejor && mejor.distancia < UMBRAL_METROS ? mejor : null;
+    return Array.from(calles);
   }
 
   useEffect(() => {
     if (!guiaActiva || !posicion || !geojsonCalles) return;
 
-    const segmento = encontrarSegmento(posicion, geojsonCalles);
-    if (!segmento || !segmento.nombre || segmento.nombre === 'Calle sin nombre') return;
-
-    const segmentoGuardado = JSON.parse(localStorage.getItem('segmentoActual'));
-    if (segmentoGuardado?.nombre === segmento.nombre) return;
-
     const ahora = Date.now();
     const ultimo = parseInt(localStorage.getItem('ultimoMensaje') || '0');
     if (ahora - ultimo < 5000) return;
 
-    localStorage.setItem('segmentoActual', JSON.stringify(segmento));
+    const calles = detectarCallesCercanas(posicion, geojsonCalles);
+    if (calles.length === 0) return;
+
+    const claveCruce = calles.sort().join('|');
+    const cruceAnterior = localStorage.getItem('cruceAnterior');
+    if (cruceAnterior === claveCruce) return;
+
+    localStorage.setItem('cruceAnterior', claveCruce);
     localStorage.setItem('ultimoMensaje', ahora.toString());
 
-    const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
-    setInstruccion(texto);
-
-    const utterance = new SpeechSynthesisUtterance(texto);
-    speechSynthesis.speak(utterance);
-
-    if (navigator.vibrate) {
-      navigator.vibrate([100, 50, 100]); // vibración ritual
+    let texto = '';
+    if (calles.length === 1) {
+      const segmento = geojsonCalles.features.find(f => f.properties.name === calles[0]);
+      const sentido = segmento?.properties?.sentido || '';
+      texto = `🕰️ Estás en ${calles[0]}. ${interpretarSentido(sentido)}`;
+    } else {
+      texto = `Cruce entre ${calles.slice(0, 2).join(' y ')}.`;
     }
+
+    setInstruccion(texto);
+    speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
+    if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
   }, [posicion, geojsonCalles, guiaActiva]);
 
   return (
@@ -84,8 +86,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
           onClick={() => {
             setGuiaActiva(true);
             const texto = 'Guía activada. Te acompañaré en el camino.';
-            const utterance = new SpeechSynthesisUtterance(texto);
-            speechSynthesis.speak(utterance);
+            speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
           }}
           style={{
             position: 'fixed',
