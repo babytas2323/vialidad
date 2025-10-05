@@ -4,7 +4,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
   const [instruccion, setInstruccion] = useState('');
 
-  const UMBRAL_METROS = 0.0001; // ~30 metros en coordenadas
+  const UMBRAL_METROS = 0.0003; // ~30 metros en coordenadas
 
   function interpretarSentido(sentido) {
     const s = sentido?.toLowerCase();
@@ -63,15 +63,24 @@ function GuiaViva({ posicion, geojsonCalles }) {
     const ultimo = parseInt(localStorage.getItem('ultimoMensaje') || '0');
     if (ahora - ultimo < 5000) return;
 
-    localStorage.setItem('segmentoActual', JSON.stringify(segmento));
-    localStorage.setItem('ultimoMensaje', ahora.toString());
 
-    const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
-    setInstruccion(texto);
+if (segmento.nombre !== segmentoGuardado?.nombre) {
+  localStorage.setItem('segmentoActual', JSON.stringify(segmento));
+  localStorage.setItem('ultimoMensaje', ahora.toString());
 
-    const utterance = new SpeechSynthesisUtterance(texto);
-    speechSynthesis.speak(utterance);
-  }, [posicion, geojsonCalles, guiaActiva]);
+  const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
+  setInstruccion(texto);
+
+  const utterance = new SpeechSynthesisUtterance(texto);
+  speechSynthesis.speak(utterance);
+
+  if (navigator.vibrate) {
+    navigator.vibrate([100, 50, 100]); // vibración ritual
+  }
+}
+
+  },
+   [posicion, geojsonCalles, guiaActiva]);
 
   return (
     <>
