@@ -34,27 +34,10 @@ export const obtenerIcono = (tipo) => {
 // Puntos de interés directamente en el archivo
 export const puntosInteres = [
   
-   {
-     tipo: 'comida', nombre: 'Tacos El Güero', lat: 19.817743, lng: -97.806093,
-   
-   }, 
-  { 
-    tipo: 'estacionamiento', nombre: 'Estacionamiento Central', lat: 19.818452, lng:-97.806462,
-    imagen: 'https://oem.com.mx/elsoldepuebla/img/22356789/1742926488/BASE_LANDSCAPE/480/image.webp',
-
-     
-  },
-  { 
-    tipo: 'estacionamiento', nombre: 'Estacionamiento Parque', lat:  19.817251, lng: -97.806827,
-     
-  },
-  {
-     tipo: 'estacionamiento', nombre: 'Estacionamiento norte', lat:  19.817253, lng: -97.806802,
-     
-  }, 
-  { 
-    tipo: 'estacionamiento', nombre: 'Estacionamiento noreste', lat:  19.817292, lng: -97.806702 ,
-    
-  },
+  {tipo: 'comida', nombre: 'Tacos El Güero', lat: 19.817743, lng: -97.806093,}, 
+  {tipo: 'estacionamiento', nombre: 'Estacionamiento Central', lat: 19.818452, lng:-97.806462},
+  {tipo: 'estacionamiento', nombre: 'Estacionamiento Parque', lat:  19.817251, lng: -97.806827},
+  {tipo: 'estacionamiento', nombre: 'Estacionamiento norte', lat:  19.817253, lng: -97.806802}, 
+  {tipo: 'estacionamiento', nombre: 'Estacionamiento noreste', lat:  19.817292, lng: -97.806702},
 
 ];
