@@ -66,11 +66,15 @@ function GuiaViva({ posicion, geojsonCalles }) {
     localStorage.setItem('segmentoActual', JSON.stringify(segmento));
     localStorage.setItem('ultimoMensaje', ahora.toString());
 
-    const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
+    const texto = `🕰️ Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
     setInstruccion(texto);
 
     const utterance = new SpeechSynthesisUtterance(texto);
     speechSynthesis.speak(utterance);
+
+    if (navigator.vibrate) {
+      navigator.vibrate([100, 50, 100]); // vibración ritual
+    }
   }, [posicion, geojsonCalles, guiaActiva]);
 
   return (
