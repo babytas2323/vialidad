@@ -57,23 +57,18 @@ function GuiaViva({ posicion, geojsonCalles }) {
   }, [posicion, geojsonCalles]);
 
   // Hablar cada 5 segundos
-useEffect(() => {
-  if (!posicion || !geojsonCalles) return;
+  useEffect(() => {
+    if (!segmentoActual) return;
 
-  const intervalo = setInterval(() => {
-    const segmento = encontrarSegmento(posicion, geojsonCalles);
-    if (!segmento) return;
+    const intervalo = setInterval(() => {
+      const texto = `Estás en ${segmentoActual.nombre}. ${interpretarSentido(segmentoActual.sentido)}`;
+      setInstruccion(texto);
+      const utterance = new SpeechSynthesisUtterance(texto);
+      speechSynthesis.speak(utterance);
+    }, 5000);
 
-    const texto = `Estás en ${segmento.nombre}. ${interpretarSentido(segmento.sentido)}`;
-    setInstruccion(texto);
-
-    const utterance = new SpeechSynthesisUtterance(texto);
-    speechSynthesis.speak(utterance);
-  }, 5000);
-
-  return () => clearInterval(intervalo);
-}, [posicion, geojsonCalles]);
-
+    return () => clearInterval(intervalo);
+  }, [segmentoActual]);
 
   return (
     <div style={{
