@@ -4,7 +4,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
   const [instruccion, setInstruccion] = useState('');
 
-  const UMBRAL_METROS = 0.0003; // ~30 metros en coordenadas
+  const UMBRAL_METROS = 0.0004; // ~30 metros en coordenadas
 
   function interpretarSentido(sentido) {
     const s = sentido?.toLowerCase();
