@@ -70,7 +70,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
     if (calles.length === 1) {
       const segmento = geojsonCalles.features.find(f => f.properties.name === calles[0]);
       const sentido = segmento?.properties?.sentido || '';
-      texto = `🕰️ Estás en ${calles[0]}. ${interpretarSentido(sentido)}`;
+      texto = `Estás en ${calles[0]}. ${interpretarSentido(sentido)}`;
     } else {
       texto = `Cruce entre ${calles.slice(0, 2).join(' y ')}.`;
     }
