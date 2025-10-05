@@ -33,3 +33,5 @@ git push
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 
           />*/}
+
+          './utils/iconosMapa'

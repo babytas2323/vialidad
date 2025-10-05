@@ -1,13 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
 import L, { latLng } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import CallesVialidad from './CallesVialidad';
-
-const iconoRadar = L.divIcon({
-  className: 'radar-icon',
-  iconSize: [20, 20],
-});
+import GuiaViva from './GuiaViva';
+import { iconoRadar, obtenerIcono, puntosInteres } from './utils/iconosMapa';
 
 function MapaProtector() {
   const [posicion, setPosicion] = useState(null);
@@ -47,15 +44,18 @@ function MapaProtector() {
       .then((data) => setGeojsonCalles(data));
   }, []);
 
-
+  let mensaje = '';
+  if (posicion) {
+    const [lat, lng] = posicion;
+    mensaje = `Emergencia: necesito ayuda. Mi ubicación es https://www.google.com/maps?q=${lat},${lng}`;
+  }
 
   const activarPanico = () => {
     if (!posicion) {
       alert('Ubicación no disponible. No se puede enviar el mensaje.');
       return;
     }
-    const [lat, lng] = posicion;
-    const mensaje = `Emergencia: necesito ayuda. Mi ubicación es https://www.google.com/maps?q=${lat},${lng}`;
+
     const numero = '5217761125973';
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank');
@@ -64,34 +64,44 @@ function MapaProtector() {
   return (
     <div style={{ position: 'relative', height: '100vh', width: '100vw' }}>
       {posicion ? (
-        <MapContainer
-          center={posicion}
-          zoom={19}
-          scrollWheelZoom={true}
-          style={{ height: '100%', width: '100%', zIndex: 1 }}
-          whenCreated={(mapInstance) => { mapaRef.current = mapInstance; }}
-        >
-          {/*}
-          <TileLayer
-            attribution="&copy; Google Maps"
-            url="https://mt1.google.com/vt/lyrs=s,r&x={x}&y={y}&z={z}"
-            subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
-          />*/}
-           <TileLayer
-            attribution='&copy; OpenStreetMap'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        <>
+          <MapContainer
+            center={posicion}
+            zoom={14}
+            scrollWheelZoom={true}
+            style={{ height: '100%', width: '100%', zIndex: 1 }}
+            whenCreated={(mapInstance) => { mapaRef.current = mapInstance; }}
+          >
+            <TileLayer
+              attribution='&copy; OpenStreetMap'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
 
-          /> 
+            {geojsonCalles && <CallesVialidad datos={geojsonCalles} />}
 
-          {geojsonCalles && <CallesVialidad datos={geojsonCalles} />}
-          <Marker position={posicion} icon={iconoRadar}>
-            <Popup>
-              {ubicacionManual
-                ? '📍 Ubicación de respaldo (Tetela de Ocampo)'
-                : latLng(posicion).toString()} {/*📍 Aquí estás'*/}'
-            </Popup>
-          </Marker>
-        </MapContainer>
+            <Marker position={posicion} icon={iconoRadar}>
+              <Popup>
+                {ubicacionManual
+                  ? '📍 Ubicación de respaldo (Tetela de Ocampo)'
+                  : latLng(posicion).toString()}
+              </Popup>
+            </Marker>
+
+            {puntosInteres.map((punto, index) => (
+              <Marker
+                key={index}
+                position={[punto.lat, punto.lng]}
+                icon={obtenerIcono(punto.tipo)}
+              >
+                <Popup>{punto.nombre}</Popup>
+              </Marker>
+            ))}
+          </MapContainer>
+
+          {geojsonCalles && (
+            <GuiaViva posicion={posicion} geojsonCalles={geojsonCalles} />
+          )}
+        </>
       ) : (
         <div style={{
           height: '100vh',
