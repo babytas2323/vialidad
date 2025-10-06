@@ -1,9 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 function GuiaViva({ posicion, geojsonCalles }) {
   const [guiaActiva, setGuiaActiva] = useState(false);
   const [instruccion, setInstruccion] = useState('');
   const [visible, setVisible] = useState(false);
+
+  // Variables en memoria para evitar repetir mensajes (sin localStorage)
+  const cruceAnterior = useRef('');
+  const ultimoMensaje = useRef(0);
 
   const UMBRAL_METROS = 0.0001;
 
@@ -34,7 +38,6 @@ function GuiaViva({ posicion, geojsonCalles }) {
   }
 
   function detectarCallesCercanas(pos, geojson) {
-
     const calles = new Set();
     geojson.features.forEach((feature) => {
       const coords = feature.geometry.coordinates;
@@ -54,18 +57,16 @@ function GuiaViva({ posicion, geojsonCalles }) {
     if (!guiaActiva || !posicion || !geojsonCalles) return;
 
     const ahora = Date.now();
-    const ultimo = parseInt(localStorage.getItem('ultimoMensaje') || '0');
-    if (ahora - ultimo < 5000) return;
+    if (ahora - ultimoMensaje.current < 5000) return; // Espera 5 segundos
 
     const calles = detectarCallesCercanas(posicion, geojsonCalles);
     if (calles.length === 0) return;
 
     const claveCruce = calles.sort().join('|');
-    const cruceAnterior = localStorage.getItem('cruceAnterior');
-    if (cruceAnterior === claveCruce) return;
+    if (cruceAnterior.current === claveCruce) return;
 
-    localStorage.setItem('cruceAnterior', claveCruce);
-    localStorage.setItem('ultimoMensaje', ahora.toString());
+    cruceAnterior.current = claveCruce;
+    ultimoMensaje.current = ahora;
 
     let texto = '';
     if (calles.length === 1) {
@@ -77,9 +78,10 @@ function GuiaViva({ posicion, geojsonCalles }) {
     }
 
     setInstruccion(texto);
-    setVisible(false); // reset animation
-    setTimeout(() => setVisible(true), 50); // trigger fade-in
+    setVisible(false);
+    setTimeout(() => setVisible(true), 50); // animación
 
+    // Voz y vibración
     speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
     if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
   }, [posicion, geojsonCalles, guiaActiva]);
@@ -104,14 +106,17 @@ function GuiaViva({ posicion, geojsonCalles }) {
             color: 'white',
             borderRadius: '50%',
             fontSize: '1.5em',
-            border: '3px solid #ffffffff',
+            border: '3px solid #ffffff',
             boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
             cursor: 'pointer',
             zIndex: 9999,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            transition: 'transform 0.2s ease',
           }}
+          onMouseDown={(e) => e.currentTarget.style.transform = 'scale(0.9)'}
+          onMouseUp={(e) => e.currentTarget.style.transform = 'translate(-50%, -50%)'}
         >
           🎙️
         </button>
