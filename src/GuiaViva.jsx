@@ -34,7 +34,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
   }
 
   function detectarCallesCercanas(pos, geojson) {
-    
+
     const calles = new Set();
     geojson.features.forEach((feature) => {
       const coords = feature.geometry.coordinates;
