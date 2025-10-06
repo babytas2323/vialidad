@@ -50,16 +50,47 @@ function MapaProtector() {
     mensaje = `Emergencia: necesito ayuda. Mi ubicación es https://www.google.com/maps?q=${lat},${lng}`;
   }
 
-  const activarPanico = () => {
-    if (!posicion) {
-      alert('Ubicación no disponible. No se puede enviar el mensaje.');
-      return;
-    }
 
-    const numero = '5217761125973';
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
-    window.open(url, '_blank');
-  };
+  
+ const activarPanico = async () => {
+  if (!posicion) {
+    alert('📍 Ubicación no disponible. No se puede enviar el mensaje.');
+    return;
+  }
+
+  const [lat, lng] = posicion;
+  const enlaceMapa = `https://www.google.com/maps?q=${lat},${lng}`;
+  const mensaje = `🚨 Emergencia: necesito ayuda.\nMi ubicación es:\n${enlaceMapa}`;
+
+  try {
+    // 🧭 1️⃣ Intentar usar la API de compartir (Android, iOS, navegadores modernos)
+    if (navigator.share) {
+      await navigator.share({
+        title: 'Emergencia 🚨',
+        text: mensaje,
+        url: enlaceMapa,
+      });
+      console.log('Mensaje de emergencia compartido exitosamente.');
+    } else {
+      // 💬 2️⃣ Si no está disponible, abrir WhatsApp como respaldo
+      const numero = '5217761125973'; // número de contacto
+      const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+      window.open(url, '_blank');
+    }
+  } catch (error) {
+    console.error('Error al compartir o enviar mensaje:', error);
+
+    // 3️⃣ Fallback final: copiar al portapapeles si todo falla
+    try {
+      await navigator.clipboard.writeText(mensaje);
+      alert('⚠️ No se pudo enviar automáticamente, pero el mensaje se copió al portapapeles.');
+    } catch {
+      alert('Error al copiar mensaje. Verifica tu conexión o permisos.');
+    }
+  }
+};
+
+
 
   return (
     <div style={{ position: 'relative', height: '100vh', width: '100vw' }}>
@@ -91,7 +122,7 @@ function MapaProtector() {
                 position={[punto.lat, punto.lng]}
                 icon={obtenerIcono(punto.tipo)}
               >
-                <Popup>{punto.nombre}</Popup>
+                <Popup>{punto.nombre}</Popup>{/** llama el nombre de iconosMapa.js*/}
               </Marker>
             ))}
           </MapContainer>
@@ -119,12 +150,12 @@ function MapaProtector() {
           position: 'fixed',
           bottom: '1em',
           right: '1em',
-          backgroundColor: '#e70707ff',
+          backgroundColor: '#d30909ff',
           color: 'white',
           padding: '0.8em',
           borderRadius: '50%',
           fontSize: '1.2em',
-          border: 'none',
+          border: '3px solid white',
           boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
           cursor: 'pointer',
           zIndex: 9999,

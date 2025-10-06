@@ -16734,7 +16734,7 @@
         "highway": "residential",
         "name": "Calle 2 Oriente",
         "oneway": "yes",
-        "sentido": "oriente-poniente"
+        "sentido": "poniente-oriente"
       },
       "geometry": {
         "type": "LineString",

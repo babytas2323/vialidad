@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Tacos El Güero",
+        "tipo": "comida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.806093, 19.817743]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Estacionamiento Parque",
+        "tipo": "estacionamiento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.806827, 19.817251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Prohibido Estacionarse",
+        "tipo": "no-estacionamiento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.807557, 19.819182]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Personas con Discapacidad",
+        "tipo": "discapacitado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.807552, 19.819158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parroquia Santa María de la Asunción",
+        "tipo": "iglesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.807561, 19.816695]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Hospital Integral Tetela De Ocampo",
+        "tipo": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.813606, 19.818870]  
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Zócalo, de la ciudad de Tetela de Ocampo",
+        "tipo": "parque-centro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.806437, 19.816880]  
+      }
+    }
+  ]
+}
