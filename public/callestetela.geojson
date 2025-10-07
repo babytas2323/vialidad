@@ -12,7 +12,7 @@
         "ref": "PUE 148",
         "name": "Carr la Cañada a Huauaxla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -4217,7 +4217,7 @@
         "surface": "unpaved",
          "name": "Carr. Vista Hermosa - Cuahuigtic",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -6846,7 +6846,7 @@
         "highway": "tertiary",
         "name": "Carr. Cascadas de Aconco - Atenco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11154,7 +11154,7 @@
         "highway": "residential",
         "name": "Calle 20 de Noviembre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11198,7 +11198,7 @@
         "highway": "residential",
         "name": "Avenida 7 Sur",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11545,7 +11545,7 @@
         "highway": "unclassified",
         "name": "Carr. Tetela al Puerto",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11793,7 +11793,7 @@
         "highway": "tertiary",
         "name": "Autolavado Cam Bennto juarez",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -11837,7 +11837,7 @@
         "highway": "tertiary",
         "name": "Carr Tetela al Puerto por Juarez",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -12235,7 +12235,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -13352,7 +13352,7 @@
         "highway": "tertiary",
         "name": "Carr. Tempextla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -14396,7 +14396,7 @@
         "ref": "PUE 148",
         "name": "Carretera a Aquixtla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -14870,7 +14870,7 @@
         "ref": "PUE 148",
         "name": "Carr la Cañada a Tecucuilco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15098,7 +15098,7 @@
         "highway": "unclassified",
         "name": "lF66Ml5z4TO4jFaRxiMy",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15307,7 +15307,7 @@
         "ref": "PUE 148",
         "name": "Carr la Cañada a Huauaxla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -15910,7 +15910,7 @@
         "source:geometry": "LGL, www.lgl-bw.de",
         "name": "Carr. Las Besanas Ilotepec",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -17456,7 +17456,7 @@
         "source": "digitalglobe",
          "name": "Carr. San Jose - Muyuapan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -19414,7 +19414,7 @@
         "highway": "unclassified",
         "name": "Carr el Puerto - Mirador la Cumbre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -19494,7 +19494,7 @@
         "highway": "tertiary",
         "name": "Carr Tetela al Puerto por Juarez",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21100,7 +21100,7 @@
         "highway": "unclassified",
         "name": "Carr Tetela al Puerto",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21745,7 +21745,7 @@
         "highway": "residential",
         "name": "Calle Santa Rosa de Lima",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -21943,7 +21943,7 @@
         "name": "Calle Santa Rosa de Lima",
         "ref": "PUE 148",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22018,7 +22018,7 @@
         "name": "Calle La Guadalupana",
         "ref": "PUE 148",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22072,7 +22072,7 @@
         "highway": "primary",
         "ref": "PUE 148",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22150,7 +22150,7 @@
         "name": "Calle Santa Rosa de Lima",
         "ref": "PUE 148",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22203,7 +22203,7 @@
         "ref": "PUE 148",
         "name": "Carr la Soledad Cuacualachaco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22823,7 +22823,7 @@
         "highway": "unclassified",
         "name": "Carr Vulevar a Deportivo",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -22888,7 +22888,7 @@
         "highway": "unclassified",
         "name": "Carr Vulevar La Soledad",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -23118,7 +23118,7 @@
         "highway": "unclassified",
         "name": "Carr Vulevar La Soledad",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -23150,7 +23150,7 @@
         "highway": "unclassified",
         "name": "Carr Vulevar La Soledad",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -23285,7 +23285,7 @@
         "highway": "unclassified",
         "name": "Carr. La Soledad a Vuena Vista",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -24347,7 +24347,7 @@
         "highway": "residential",
         "name": "Avenida Tamuanco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -24399,7 +24399,7 @@
         "highway": "residential",
         "name": "Avenida Tamuanco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -24507,7 +24507,7 @@
         "highway": "residential",
         "name": "Prolongación Chapultepec",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30216,7 +30216,7 @@
         "highway": "unclassified",
          "name": "Carr. Juarez - La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30416,7 +30416,7 @@
         "highway": "unclassified",
          "name": "Carr. Juarez - La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30552,7 +30552,7 @@
         "highway": "unclassified",
         "name": "Carr. Juarez - La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30954,7 +30954,7 @@
         "highway": "unclassified",
         "name": "Carr. Tetela al Puerto",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -30990,7 +30990,7 @@
         "highway": "unclassified",
         "name": "Carr Tetela al Puerto",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31158,7 +31158,7 @@
         "highway": "residential",
          "name": "Carr. Juarez - La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31267,7 +31267,7 @@
         "highway": "unclassified",
          "name": "Carr. Juarez - La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31412,7 +31412,7 @@
         "highway": "residential",
        "name": "Carr. La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31477,7 +31477,7 @@
         "highway": "residential",
          "name": "Carr. Juárez - La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31703,7 +31703,7 @@
         "source": "digitalglobe",
         "name": "Carr. Tetela Tatzalan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -32339,7 +32339,7 @@
         "highway": "residential",
         "name": "Calle 2 Sur",
          "oneway": "yes",
-        "sentido": "doble sentido"       
+        "sentido": "doble-sentido"       
       },
       "geometry": {
         "type": "LineString",
@@ -32415,7 +32415,7 @@
         "highway": "residential",
         "name": "Calle 2 Sur",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33153,7 +33153,7 @@
         "highway": "residential",
         "name": "Avenida Tamuanco",
         "oneway": "yes",
-        "sentido": "doble sentido"        
+        "sentido": "doble-sentido"        
       },
       "geometry": {
         "type": "LineString",
@@ -33197,7 +33197,7 @@
         "highway": "residential",
         "name": "Avenida 5 Norte",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33225,7 +33225,7 @@
         "highway": "residential",
         "name": "Avenida 5 Norte",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33359,7 +33359,7 @@
         "highway": "residential",
         "name": "Calle 2 Sur",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34031,7 +34031,7 @@
         "highway": "tertiary",
         "name": "Cam Municipal Benito Juarez",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34394,7 +34394,7 @@
         "highway": "unclassified",
         "name": "Calle Diagonal 2 Sur",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34722,7 +34722,7 @@
         "highway": "residential",
         "name": "Calle 2 Sur",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34865,7 +34865,7 @@
         "highway": "tertiary",
         "name": "Avenida 7 Poniente DS",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34974,7 +34974,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34998,7 +34998,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -35634,7 +35634,7 @@
         "name": "Calle 2 Poniente",
         "source": "Bing",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -35720,7 +35720,7 @@
         "highway": "tertiary",
         "name": "Avenida 16 de Septiembre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37170,7 +37170,7 @@
         "highway": "tertiary",
         "name": "Calle Nueva",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37210,7 +37210,7 @@
         "highway": "tertiary",
         "name": "Avenida 16 de Septiembre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37558,7 +37558,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -44931,7 +44931,7 @@
         "highway": "tertiary",
         "name": "Avenida Principal",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -44991,7 +44991,7 @@
         "highway": "tertiary",
         "name": "Carr. Puente Seco Centro Escolar",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -52935,7 +52935,7 @@
         "source": "digitalglobe",
         "name": "Carr. Xaltatempa Xilitetitla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -53723,7 +53723,7 @@
         "ref": "PUE 148",
         "name": "Carretera a Aquixtla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -59688,7 +59688,7 @@
         "source": "digitalglobe",
         "name": "Carr. Ometepetl Taxco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -61958,7 +61958,7 @@
         "highway": "residential",
         "name": "7Z3N7jQqHDXgPJ01HiUZ",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -65367,7 +65367,7 @@
         "highway": "unclassified",
          "name": "Carr. Chalahuico - Atenti Oriente",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -67417,7 +67417,7 @@
         "highway": "unclassified",
         "name": "Carr. Vuena Vista",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -68154,7 +68154,7 @@
         "highway": "residential",
         "name": "Carr. Rancho Viejo",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -68246,7 +68246,7 @@
         "highway": "unclassified",
         "name": "Carr. Ilotepec Rancho Viejo",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -69583,7 +69583,7 @@
         "source": "digitalglobe",
          "name": "Carr. El Puerto - Tenzoncuahuigtic",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -72119,7 +72119,7 @@
         "highway": "unclassified",
         "name": "Carr. Zitlalcuautla - Vista Hermosa",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -73655,7 +73655,7 @@
         "source": "digitalglobe",
          "name": "Carr. Zitlalcuautla - Vista Hermosa",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -79223,7 +79223,7 @@
         "highway": "unclassified",
         "name": "7dl9pNXc1xZ6F7EZjQH7H",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -81585,7 +81585,7 @@
         "source": "digitalglobe",
         "name": "Carr. Xaltatempa xilitetitla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -88134,7 +88134,7 @@
         "highway": "unclassified",
         "name": "Carr. Xaltatempa Xilitetitla",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -89095,7 +89095,7 @@
         "highway": "unclassified",
         "name": "Carr. Carreragco - Chalahuico",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -89570,7 +89570,7 @@
         "highway": "tertiary",
         "name": "Carr. Puente Seco Xaltatempa",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -95130,7 +95130,7 @@
         "highway": "unclassified",
         "name": "Carr. Ometepetl Taxco",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -95593,7 +95593,7 @@
         "highway": "unclassified",
         "name": "Carr Zontecomapan Tecuanta",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -99520,7 +99520,7 @@
         "highway": "unclassified",
         "name": "Carr. Carreragco - Chalahuico",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -100160,7 +100160,7 @@
         "highway": "unclassified",
          "name": "Carr. Carreragco - Chalahuico",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -103164,7 +103164,7 @@
         "highway": "unclassified",
         "name": "Carr Mirador la Cumbre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -105239,7 +105239,7 @@
         "highway": "service",
         "name": "Carr. Vuena Vista",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -105291,7 +105291,7 @@
         "highway": "unclassified",
         "name": "Carr. Vuena Vista",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -109514,7 +109514,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -109538,7 +109538,7 @@
         "highway": "tertiary",
         "name": "Carretera a Cuautempan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -110331,7 +110331,7 @@
         "highway": "unclassified",
         "name": "Mirador la Cumbre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -110663,7 +110663,7 @@
         "highway": "unclassified",
         "name": "Carr Mirador la Cumbre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -110919,7 +110919,7 @@
         "highway": "residential",
         "name": "Calle 2 Sur",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -111069,7 +111069,7 @@
         "highway": "unclassified",
         "name": "Carr. Ronquiyogco Tatzalan",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -111615,7 +111615,7 @@
         "highway": "unclassified",
         "name": "9xnfAcsq9zdD1JXpfoYu",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -113762,7 +113762,7 @@
         "highway": "residential",
         "name": "Carr. La Cruz Blanca",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -116955,7 +116955,7 @@
         "highway": "residential",
         "name": "Avenida 16 de Septiembre",
         "oneway": "yes",
-        "sentido": "doble sentido"
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",

@@ -9,7 +9,7 @@ const colores = {
   'norte-sur': '#e91e63',           // rosa
   'oriente-poniente': '#2196f3',    // azul
   'poniente-oriente': '#3f51b5',    // azul oscuro
-  'doble sentido': '#fd0000ff',       // verde
+  'doble-sentido': '#4caf50',       // verde
   //'desconocido': '#b4b4b4ff, #4caf50',         // gris
   'desconocido': '#eeb20dff',  
 };
@@ -22,7 +22,7 @@ function estiloCalle(feature) {
   color: colores[sentido] || '#000',
   weight: 4,
   dashArray:
-    sentido === 'doble sentido' ? '5,5' :
+    sentido === 'doble-sentido' ? '5,5' :
     sentido === 'sur-norte' ? '10,5' :
     sentido === 'norte-sur' ? '10,5' :
     sentido === 'oriente-poniente' ? '10,5' :

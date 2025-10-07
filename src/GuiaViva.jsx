@@ -19,7 +19,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
     if (s === 'sur-norte') return 'Avanza hacia el norte.';
     if (s === 'poniente-oriente') return 'Avanza hacia el oriente.';
     if (s === 'oriente-poniente') return 'Avanza hacia el poniente.';
-    if (s === 'doble sentido') return 'Puedes avanzar en ambas direcciones.';
+    if (s === 'doble-sentido') return 'Puedes avanzar en ambas direcciones.';
     return 'Sentido vial no definido.';
   }
 
