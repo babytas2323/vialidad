@@ -22,7 +22,7 @@ function estiloCalle(feature) {
   color: colores[sentido] || '#000',
   weight: 4,
   dashArray:
-    sentido === 'doble-sentido' ? '5,5' :
+    sentido === 'doble-sentido' ? '10,5' :
     sentido === 'sur-norte' ? '10,5' :
     sentido === 'norte-sur' ? '10,5' :
     sentido === 'oriente-poniente' ? '10,5' :
