@@ -11,7 +11,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
   // New ref to track the current street
   const calleActual = useRef('');
  
-  const UMBRAL_METROS =0.00005;
+  const UMBRAL_METROS =0.0001;
 
   function interpretarSentido(sentido) {
     const s = sentido?.toLowerCase();
