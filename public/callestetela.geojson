@@ -10248,7 +10248,7 @@
       "properties": {
         "@id": "way/439773960",
         "highway": "residential",
-        "name": "Calle 16 de Septiembre"
+        "name": "Calle 16 de Septiembre Xaltatempa"
       },
       "geometry": {
         "type": "LineString",
@@ -96740,7 +96740,7 @@
       "properties": {
         "@id": "way/843293689",
         "highway": "residential",
-        "name": "Avenida 16 de Septiembre Norte Sur",
+        "name": "Calle 16 de Septiembre",
         "oneway": "yes",
         "sentido": "norte-sur"
       },
