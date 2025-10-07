@@ -86,8 +86,37 @@ function GuiaViva({ posicion, geojsonCalles }) {
 
     // Update current street
     const claveCruce = calles.sort().join('|');
+    
+    // Check if we're entering a new street
+    let nuevaCalle = '';
     if (calles.length === 1) {
-      // Single street - update current street
+      // Single street
+      nuevaCalle = calles[0];
+    }
+    
+    // Notify if we're entering a street after being off the street
+    if (!calleActual.current && nuevaCalle) {
+      const segmento = geojsonCalles.features.find(f => f.properties.name === nuevaCalle);
+      const sentido = segmento?.properties?.sentido || '';
+      const mensajeEntrada = `Has entrado a ${nuevaCalle}. ${interpretarSentido(sentido)}`;
+      
+      setInstruccion(mensajeEntrada);
+      setVisible(false);
+      setTimeout(() => setVisible(true), 50); // animación
+      
+      // Voice and vibration notification
+      speechSynthesis.speak(new SpeechSynthesisUtterance(mensajeEntrada));
+      if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
+      
+      // Update current street
+      calleActual.current = nuevaCalle;
+      cruceAnterior.current = claveCruce;
+      ultimoMensaje.current = ahora;
+      return;
+    }
+    
+    // Update current street for single streets
+    if (calles.length === 1) {
       calleActual.current = calles[0];
     } else {
       // At intersection - clear current street
