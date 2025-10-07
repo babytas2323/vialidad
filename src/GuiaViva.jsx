@@ -8,6 +8,8 @@ function GuiaViva({ posicion, geojsonCalles }) {
   // Variables en memoria para evitar repetir mensajes (sin localStorage)
   const cruceAnterior = useRef('');
   const ultimoMensaje = useRef(0);
+  // New ref to track the current street
+  const calleActual = useRef('');
 
   const UMBRAL_METROS = 0.0001;
 
@@ -60,9 +62,39 @@ function GuiaViva({ posicion, geojsonCalles }) {
     if (ahora - ultimoMensaje.current < 5000) return; // Espera 5 segundos
 
     const calles = detectarCallesCercanas(posicion, geojsonCalles);
+    
+    // Check if we've left a street
+    if (calleActual.current && calles.length === 0) {
+      // We were on a street and now we're not
+      const mensajeSalida = `Has salido de ${calleActual.current}.`;
+      setInstruccion(mensajeSalida);
+      setVisible(false);
+      setTimeout(() => setVisible(true), 50); // animación
+      
+      // Voice and vibration notification
+      speechSynthesis.speak(new SpeechSynthesisUtterance(mensajeSalida));
+      if (navigator.vibrate) navigator.vibrate([200, 100, 200]);
+      
+      // Reset current street
+      calleActual.current = '';
+      ultimoMensaje.current = ahora;
+      return;
+    }
+    
+    // If we're not on any street, do nothing further
     if (calles.length === 0) return;
 
+    // Update current street
     const claveCruce = calles.sort().join('|');
+    if (calles.length === 1) {
+      // Single street - update current street
+      calleActual.current = calles[0];
+    } else {
+      // At intersection - clear current street
+      calleActual.current = '';
+    }
+    
+    // Skip if we're still on the same street/intersection
     if (cruceAnterior.current === claveCruce) return;
 
     cruceAnterior.current = claveCruce;

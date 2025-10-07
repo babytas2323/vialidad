@@ -17,16 +17,20 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 /*CODIGO PARA SUBIR NUEVOS CAMBIOS A GITHUB Y VERSEL*/
+
 git status  
 git add .  
 git commit -m "Actualizo mapa protector con cambios recientes"  
 git push   
+
 /*FIN CODIGO PARA SUBIR NUEVOS CAMBIOS A GITHUB Y VERSEL*/
 
-        "name": "Avenida Tamuanco",
-        "oneway": "yes",
-        "sentido": "doble sentido"
-
+https://fontawesome.com/search?q=tree&o=r  /*ICONOS DE FONTAWESOME*/ 
+https://icons.getbootstrap.com/            /*ICONOS DE BOSTRAP REACT*/
+        
+https://tools.paintmaps.com/es/recorte-de-mapa/MX/4-102078363/muestras /*PAGINA PARA DESCARGAR JSON TETELA DE COAMPO IMAGENES MUY BUENO*/
+https://geojson.io/#map=2/0/20 /*MUY BUENO CARGA EL ARCHIVO JSON Y LO PUEDE EDITAR*/
+https://overpass-turbo.eu/ /*El mejor el que use*/
 
         {/*<TileLayer
             attribution='&copy; OpenStreetMap'
@@ -34,6 +38,14 @@ git push
 
           />*/}
 
-          './utils/iconosMapa'
-
-       
+        
+/** CODIGO PARA EXTRAER DATOS DE TETELA DE COAMPO EN https://overpass-turbo.eu/
+ [out:json][timeout:25];
+area["name"="Tetela de Ocampo"]["admin_level"="8"]->.searchArea;
+(
+  way["highway"](area.searchArea);
+);
+out body;
+>;
+out skel qt; 
+*TERMINA CODIGO*/     
