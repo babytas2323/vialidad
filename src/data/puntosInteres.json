@@ -162,8 +162,8 @@
         "telefono": "7761234572",
         "whatsapp": "5217761234572",
         "accesible": true,
-        "mostrarHorario": true,
-        "mostrarContacto": true,
+        "mostrarHorario": false,
+        "mostrarContacto": false,
         "busqueda": "activo"
       },
       "geometry": {
