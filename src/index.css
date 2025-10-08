@@ -32,7 +32,7 @@ body {
 }
 
 /* Responsivo para móviles */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   button {
     font-size: 1em;
     padding: 0.6em;
@@ -43,5 +43,39 @@ body {
   .leaflet-container {
     height: 100vh;
     width: 100vw;
+  }
+  
+  /* Ajustar el tamaño de los botones para móviles */
+  .search-button, .panic-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+  }
+  
+  /* Ajustar la brújula para móviles */
+  .compass {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  button {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3em;
+  }
+  
+  .compass {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 1200px) {
+  .search-panel {
+    max-width: 400px;
   }
 }

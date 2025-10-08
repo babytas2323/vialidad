@@ -9,7 +9,7 @@
         "categoria": "Restaurante de tacos",
         "imagen": "/images/tacos.jpg",
         "horario": {
-          "apertura": "08:00",
+          "apertura": "03:00",
           "cierre": "22:00"
         },
         "telefono": "7761234567",

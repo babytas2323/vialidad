@@ -317,6 +317,7 @@ function MapaProtector() {
       {/* 🔍 Botón de búsqueda */}
       <button
         onClick={() => setMostrarBuscador(!mostrarBuscador)}
+        className="search-button"
         style={{
           position: 'fixed',
           top: '1em',
@@ -324,8 +325,8 @@ function MapaProtector() {
           backgroundColor: '#1976d2',
           color: 'white',
           borderRadius: '50%',
-          width: '50px',
-          height: '50px',
+          width: '60px',
+          height: '60px',
           border: '2px solid #ffffff',
           fontSize: '1.8em',
           cursor: 'pointer',
@@ -380,6 +381,7 @@ function MapaProtector() {
       {/* Panel de búsqueda con autocomplete */}
       {mostrarBuscador && (
         <div
+          className="search-panel"
           style={{
             position: 'fixed',
             top: '50%',
@@ -388,10 +390,12 @@ function MapaProtector() {
             background: 'white',
             padding: '20px',
             borderRadius: '12px',
-            width: '300px',
+            width: '90%',
+            maxWidth: '300px',
             boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
             zIndex: 9999,
             border: '1px solid #e0e0e0',
+            boxSizing: 'border-box',
           }}
         >
           <input
@@ -486,13 +490,25 @@ function MapaProtector() {
                   }}>
                     📍
                   </span>
-                  <div>
+                  <div style={{ flex: 1 }}>
                     <div style={{
                       fontWeight: '600',
                       fontSize: '16px',
                       color: '#333',
+                      display: 'flex',
+                      justifyContent: 'space-between',
                     }}>
-                      {r.nombre}
+                      <span>{r.nombre}</span>
+                      {r.mostrarHorario && r.horario && (
+                        <span style={{
+                          fontSize: '12px',
+                          textAlign: 'center',
+                          color: estaAbierto(r.horario) ? 'green' : 'red',
+                          fontWeight: 'normal',
+                        }}>
+                          {estaAbierto(r.horario) ? '🟢 Abierto' : '🔴 Cerrado'}
+                        </span>
+                      )}
                     </div>
                     <div style={{
                       fontSize: '14px',
@@ -513,6 +529,7 @@ function MapaProtector() {
       {/* 🚨 Botón de pánico */}
       <button
         onClick={activarPanico}
+        className="panic-button"
         style={{
           position: 'fixed',
           bottom: '1em',
@@ -536,6 +553,7 @@ function MapaProtector() {
       <img
         src="/brujula.png"
         alt="Brújula"
+        className="compass"
         style={{
           position: 'fixed',
           bottom: '1em',
