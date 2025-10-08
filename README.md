@@ -27,10 +27,6 @@ git add .
 git commit -m "Actualizo mapa protector con cambios recientes"  
 git push   
 
-
-        
-
-
 /*FIN CODIGO PARA SUBIR NUEVOS CAMBIOS A GITHUB Y VERSEL*/
 
 https://fontawesome.com/search?q=tree&o=r  /*ICONOS DE FONTAWESOME*/ 
