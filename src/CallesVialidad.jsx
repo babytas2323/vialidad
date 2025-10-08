@@ -41,7 +41,7 @@ function onEachFeature(feature, layer) {
     🛣️ <strong>${nombre}</strong><br/>
     🚦 Tipo: ${tipo}<br/>
     🧭 Sentido: ${sentido}<br>
-    ID: ${feature.id}
+    ${feature.id}
   `);
 }
 

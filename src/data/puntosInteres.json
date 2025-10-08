@@ -5,79 +5,173 @@
       "type": "Feature",
       "properties": {
         "nombre": "Tacos El Güero",
-        "tipo": "comida"
+        "tipo": "comida",
+        "categoria": "Restaurante de tacos",
+        "imagen": "/images/tacos.jpg",
+        "horario": {
+          "apertura": "08:00",
+          "cierre": "22:00"
+        },
+        "telefono": "7761234567",
+        "whatsapp": "5217761234567",
+        "accesible": true,
+        "mostrarHorario": true,
+        "mostrarContacto": true,
+        "busqueda": "activo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.806093, 19.817743]
+        "coordinates": [
+          -97.806093,
+          19.817743
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "nombre": "Estacionamiento Parque",
-        "tipo": "estacionamiento"
+        "tipo": "estacionamiento",
+        "categoria": "Estacionamiento público",
+        "imagen": "/images/estacionamiento.jpg",
+        "horario": {
+          "apertura": "06:00",
+          "cierre": "22:00"
+        },
+        "telefono": "7761234568",
+        "whatsapp": "5217761234568",
+        "accesible": false,
+        "mostrarHorario": false,
+        "mostrarContacto": false,
+        "busqueda": "activo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.806827, 19.817251]
+        "coordinates": [
+          -97.806827,
+          19.817251
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "nombre": "Prohibido Estacionarse",
-        "tipo": "no-estacionamiento"
+        "tipo": "no-estacionamiento",
+        "categoria": "Señalamiento vial",
+        "imagen": "/images/no-estacionamiento.jpg",
+        "horario": null,
+        "telefono": "",
+        "whatsapp": "",
+        "accesible": false,
+        "mostrarHorario": false,
+        "mostrarContacto": false,
+        "busqueda": "inactivo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.807557, 19.819182]
+        "coordinates": [
+          -97.807557,
+          19.819182
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "nombre": "Personas con Discapacidad",
-        "tipo": "discapacitado"
+        "tipo": "discapacitado",
+        "categoria": "Acceso para discapacitados",
+        "imagen": "/images/discapacitado.jpg",
+        "horario": null,
+        "telefono": "7761234569",
+        "whatsapp": "5217761234569",
+        "accesible": false,
+        "mostrarHorario": false,
+        "mostrarContacto": false,
+        "busqueda": "inactivo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.807552, 19.819158]
+        "coordinates": [
+          -97.807552,
+          19.819158
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "nombre": "Parroquia Santa María de la Asunción",
-        "tipo": "iglesia"
+        "tipo": "iglesia",
+        "categoria": "Lugar de culto",
+        "imagen": "/images/iglesia.jpg",
+        "horario": null,
+        "telefono": "",
+        "whatsapp": "",
+        "accesible": true,
+        "mostrarHorario": false,
+        "mostrarContacto": false,
+        "busqueda": "inactivo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.807561, 19.816695]
+        "coordinates": [
+          -97.807561,
+          19.816695
+        ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "nombre": "Hospital Integral Tetela De Ocampo",
-        "tipo": "hospital"
+        "tipo": "hospital",
+        "categoria": "Centro de salud",
+        "imagen": "/images/hospital.jpg",
+        "horario": {
+          "apertura": "00:00",
+          "cierre": "23:59"
+        },
+        "telefono": "7761234571",
+        "whatsapp": "5217761234571",
+        "accesible": true,
+        "mostrarHorario": true,
+        "mostrarContacto": true,
+        "busqueda": "activo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.813606, 19.818870]  
+        "coordinates": [
+          -97.813606,
+          19.818870
+        ]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
         "nombre": "Zócalo, de la ciudad de Tetela de Ocampo",
-        "tipo": "parque-centro"
+        "tipo": "parque-centro",
+        "categoria": "Plaza principal",
+        "imagen": "/images/zocalo.jpg",
+        "horario": {
+          "apertura": "06:00",
+          "cierre": "22:00"
+        },
+        "telefono": "7761234572",
+        "whatsapp": "5217761234572",
+        "accesible": true,
+        "mostrarHorario": true,
+        "mostrarContacto": true,
+        "busqueda": "activo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-97.806437, 19.816880]  
+        "coordinates": [
+          -97.806437,
+          19.816880
+        ]
       }
     }
   ]

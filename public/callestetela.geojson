@@ -6322,7 +6322,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439641705",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -11251,7 +11254,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439779449",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
+
       },
       "geometry": {
         "type": "LineString",
@@ -12701,7 +12708,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439786825",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -15621,7 +15631,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439833621",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -19017,7 +19030,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773877337",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -19134,7 +19150,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773877338",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -19744,7 +19763,9 @@
       "properties": {
         "@id": "way/773884529",
         "highway": "residential",
-        "name": "Calle Guadalupe"
+        "name": "Calle Guadalupe",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -19813,7 +19834,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773884530",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -20047,7 +20071,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773885760",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -20176,7 +20203,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773885761",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -20333,7 +20363,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773885766",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -20390,7 +20423,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773885767",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -20687,7 +20723,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773886287",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -20936,7 +20975,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/773887127",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -24572,7 +24614,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774691259",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -24637,7 +24682,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774691260",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -24795,7 +24843,10 @@
       "properties": {
         "@id": "way/774691261",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -25209,7 +25260,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774693746",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -25347,7 +25401,10 @@
       "properties": {
         "@id": "way/774693747",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -25629,7 +25686,10 @@
       "properties": {
         "@id": "way/774693748",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -25879,7 +25939,10 @@
       "properties": {
         "@id": "way/774693751",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -26978,7 +27041,10 @@
       "properties": {
         "@id": "way/774710651",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -27336,7 +27402,10 @@
       "properties": {
         "@id": "way/774710652",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -27442,7 +27511,10 @@
       "properties": {
         "@id": "way/774710653",
         "highway": "residential",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -27605,7 +27677,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774714770",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -27635,7 +27710,10 @@
       "properties": {
         "@id": "way/774714771",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -27782,7 +27860,10 @@
       "properties": {
         "@id": "way/774714775",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -28212,7 +28293,10 @@
       "properties": {
         "@id": "way/774714788",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -28330,7 +28414,10 @@
       "properties": {
         "@id": "way/774714789",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -28368,7 +28455,10 @@
       "properties": {
         "@id": "way/774714790",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -28598,7 +28688,10 @@
       "properties": {
         "@id": "way/774714791",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -29332,7 +29425,10 @@
       "properties": {
         "@id": "way/774721438",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -29445,7 +29541,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774721439",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -29614,7 +29713,10 @@
       "properties": {
         "@id": "way/774721443",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -29724,7 +29826,10 @@
       "properties": {
         "@id": "way/774721444",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -31027,7 +31132,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774731058",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31064,7 +31172,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774731059",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31097,7 +31208,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774731060",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31437,7 +31551,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774734224",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
+
       },
       "geometry": {
         "type": "LineString",
@@ -31547,7 +31665,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774735919",
-        "highway": "residential"
+        "highway": "residential",
+         "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -31658,7 +31779,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774735925",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -33405,7 +33529,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743122",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33430,7 +33557,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743123",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33463,7 +33593,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743124",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33492,7 +33625,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743125",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33521,7 +33657,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743126",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33554,7 +33693,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743127",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
+
       },
       "geometry": {
         "type": "LineString",
@@ -33599,7 +33742,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743128",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -33653,7 +33799,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774743130",
-        "highway": "residential"
+        "highway": "residential",
+         "name": "falta",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -34304,11 +34453,11 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/774745083",
+        "@id": "way/7747450830",
         "highway": "residential",
         "name": "Avenida 5 Oriente",
         "oneway": "yes",
-        "sentido": "poniente-oriente"
+        "sentido": "oriente-poniente"
       },
       "geometry": {
         "type": "LineString",
@@ -34339,7 +34488,7 @@
           ]
         ]
       },
-      "id": "way/774745083"
+      "id": "way/7747450830"
     },
     {
       "type": "Feature",
@@ -36914,7 +37063,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861899",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -36939,7 +37091,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861900",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -36968,7 +37123,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861901",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37001,7 +37159,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861902",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
+
       },
       "geometry": {
         "type": "LineString",
@@ -37038,7 +37200,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861903",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
+
       },
       "geometry": {
         "type": "LineString",
@@ -37083,7 +37249,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861904",
-        "highway": "residential"
+        "highway": "residential",
+          "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37112,7 +37281,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774861905",
-        "highway": "residential"
+        "highway": "residential",
+                "name": "Carr el Arenal",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37138,7 +37310,9 @@
       "properties": {
         "@id": "way/774861906",
         "highway": "residential",
-        "name": "Avenida 7 Oriente"
+        "name": "Avenida 7 Oriente",
+                "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -37168,7 +37342,7 @@
       "properties": {
         "@id": "way/774862100",
         "highway": "tertiary",
-        "name": "Calle Nueva",
+        "name": "Calle Nueva Mario Marin",
         "oneway": "yes",
         "sentido": "doble-sentido"
       },
@@ -37180,8 +37354,8 @@
             19.8201591
           ],
           [
-            -97.8070706,
-            19.8201374
+            -97.807070,
+            19.820157
           ],
           [
             -97.8061164,
@@ -39315,7 +39489,10 @@
       "properties": {
         "@id": "way/775034569",
         "highway": "residential",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -39499,7 +39676,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775034574",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -39778,7 +39958,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775034584",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -39952,7 +40135,10 @@
       "properties": {
         "@id": "way/775034588",
         "highway": "residential",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -39998,7 +40184,10 @@
       "properties": {
         "@id": "way/775034589",
         "highway": "residential",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido"
       },
       "geometry": {
         "type": "LineString",
@@ -43718,7 +43907,10 @@
       "properties": {
         "@id": "way/775074835",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -51678,7 +51870,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775131239",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -52242,7 +52437,10 @@
       "properties": {
         "@id": "way/775131243",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -55178,7 +55376,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/776636070",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -55603,7 +55804,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/836921063",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -56271,7 +56475,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/836930203",
-        "highway": "unclassified"
+        "highway": "unclassified",
+         "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -56436,292 +56643,15 @@
       },
       "id": "way/836930203"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837938954",
-        "highway": "unclassified"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.7196269,
-            19.7989617
-          ],
-          [
-            -97.7197261,
-            19.7993314
-          ],
-          [
-            -97.7197637,
-            19.7995232
-          ],
-          [
-            -97.7197637,
-            19.7996254
-          ],
-          [
-            -97.7197583,
-            19.7996632
-          ],
-          [
-            -97.7197395,
-            19.7996847
-          ],
-          [
-            -97.7197047,
-            19.799691
-          ],
-          [
-            -97.7196671,
-            19.7996809
-          ],
-          [
-            -97.7196068,
-            19.7996418
-          ],
-          [
-            -97.7195478,
-            19.7995926
-          ],
-          [
-            -97.7187298,
-            19.7992322
-          ],
-          [
-            -97.7181557,
-            19.7989793
-          ],
-          [
-            -97.7179411,
-            19.7988759
-          ],
-          [
-            -97.7177668,
-            19.798833
-          ],
-          [
-            -97.7175683,
-            19.7988102
-          ],
-          [
-            -97.7174154,
-            19.7987825
-          ],
-          [
-            -97.7172571,
-            19.7986841
-          ],
-          [
-            -97.7168173,
-            19.7984418
-          ],
-          [
-            -97.7165598,
-            19.7983055
-          ],
-          [
-            -97.7162379,
-            19.7982803
-          ],
-          [
-            -97.7160341,
-            19.7982449
-          ],
-          [
-            -97.7158812,
-            19.7981642
-          ],
-          [
-            -97.7156612,
-            19.7980128
-          ],
-          [
-            -97.7155271,
-            19.7978412
-          ],
-          [
-            -97.7154654,
-            19.7976721
-          ],
-          [
-            -97.7155083,
-            19.7974374
-          ],
-          [
-            -97.7155292,
-            19.7973161
-          ],
-          [
-            -97.7155566,
-            19.7971572
-          ],
-          [
-            -97.7155673,
-            19.7969882
-          ],
-          [
-            -97.7155485,
-            19.7968898
-          ],
-          [
-            -97.7154869,
-            19.7967762
-          ],
-          [
-            -97.7154037,
-            19.7967105
-          ],
-          [
-            -97.7152482,
-            19.7966424
-          ],
-          [
-            -97.7150765,
-            19.7966424
-          ],
-          [
-            -97.7148163,
-            19.7966777
-          ],
-          [
-            -97.7146018,
-            19.7967206
-          ],
-          [
-            -97.7144731,
-            19.7968146
-          ],
-          [
-            -97.7143818,
-            19.7969654
-          ],
-          [
-            -97.7142397,
-            19.796968
-          ],
-          [
-            -97.7140975,
-            19.796915
-          ],
-          [
-            -97.7139124,
-            19.796703
-          ],
-          [
-            -97.7138427,
-            19.7965566
-          ],
-          [
-            -97.7138132,
-            19.7963875
-          ],
-          [
-            -97.7137837,
-            19.7962083
-          ],
-          [
-            -97.7136469,
-            19.796062
-          ],
-          [
-            -97.7132553,
-            19.7958197
-          ],
-          [
-            -97.7130376,
-            19.795687
-          ],
-          [
-            -97.7128825,
-            19.7955244
-          ],
-          [
-            -97.7124831,
-            19.7950202
-          ],
-          [
-            -97.7121824,
-            19.7945528
-          ],
-          [
-            -97.7117774,
-            19.7940707
-          ],
-          [
-            -97.7116299,
-            19.793831
-          ],
-          [
-            -97.7113804,
-            19.7935963
-          ],
-          [
-            -97.7108198,
-            19.7932556
-          ],
-          [
-            -97.7101278,
-            19.7928568
-          ],
-          [
-            -97.7099159,
-            19.7927584
-          ],
-          [
-            -97.709667,
-            19.7925793
-          ],
-          [
-            -97.7093897,
-            19.7923821
-          ],
-          [
-            -97.7091001,
-            19.792214
-          ],
-          [
-            -97.7089337,
-            19.7920516
-          ],
-          [
-            -97.7088351,
-            19.7919705
-          ],
-          [
-            -97.7086194,
-            19.7918371
-          ],
-          [
-            -97.7084327,
-            19.7917817
-          ],
-          [
-            -97.7083227,
-            19.7917539
-          ],
-          [
-            -97.7082825,
-            19.7917009
-          ],
-          [
-            -97.7082557,
-            19.7915798
-          ],
-          [
-            -97.7082825,
-            19.7914435
-          ]
-        ]
-      },
-      "id": "way/837938954"
-    },
+    
     {
       "type": "Feature",
       "properties": {
         "@id": "way/837949994",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -57050,7 +56980,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837949995",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -57187,7 +57120,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837950324",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -57352,7 +57288,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837950765",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -57548,7 +57487,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837950769",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -57804,7 +57746,10 @@
       "properties": {
         "@id": "way/837955463",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -62224,7 +62169,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837964131",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -62870,7 +62818,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837967320",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -63825,7 +63776,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837968015",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -64362,269 +64316,18 @@
       },
       "id": "way/837968015"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837978386",
-        "highway": "residential"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6930812,
-            19.8106031
-          ],
-          [
-            -97.6922156,
-            19.8130484
-          ]
-        ]
-      },
-      "id": "way/837978386"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837978387",
-        "highway": "residential"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6922156,
-            19.8130484
-          ],
-          [
-            -97.6921959,
-            19.8130998
-          ],
-          [
-            -97.6921691,
-            19.8131162
-          ],
-          [
-            -97.6921101,
-            19.8131011
-          ],
-          [
-            -97.6902017,
-            19.8123895
-          ]
-        ]
-      },
-      "id": "way/837978387"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837978388",
-        "highway": "residential",
-        "source": "digitalglobe"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6903782,
-            19.8088279
-          ],
-          [
-            -97.6904163,
-            19.8089629
-          ],
-          [
-            -97.6907093,
-            19.8096225
-          ],
-          [
-            -97.6908897,
-            19.8098938
-          ],
-          [
-            -97.6910781,
-            19.8100067
-          ],
-          [
-            -97.691241,
-            19.8100396
-          ],
-          [
-            -97.6913198,
-            19.8100803
-          ],
-          [
-            -97.69134,
-            19.8101279
-          ],
-          [
-            -97.6913408,
-            19.8101782
-          ],
-          [
-            -97.6912819,
-            19.8102609
-          ],
-          [
-            -97.6911435,
-            19.8103467
-          ],
-          [
-            -97.6909768,
-            19.8103712
-          ],
-          [
-            -97.6909254,
-            19.8103819
-          ],
-          [
-            -97.6908496,
-            19.8104376
-          ],
-          [
-            -97.6906692,
-            19.8110234
-          ],
-          [
-            -97.6902017,
-            19.8123895
-          ],
-          [
-            -97.6898396,
-            19.8136524
-          ],
-          [
-            -97.6898483,
-            19.813865
-          ],
-          [
-            -97.6899187,
-            19.814007
-          ],
-          [
-            -97.6900622,
-            19.8140852
-          ],
-          [
-            -97.6902285,
-            19.8141508
-          ],
-          [
-            -97.6902729,
-            19.8141935
-          ]
-        ]
-      },
-      "id": "way/837978388"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837978389",
-        "highway": "residential",
-        "source": "digitalglobe"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6902729,
-            19.8141935
-          ],
-          [
-            -97.6903022,
-            19.8142876
-          ],
-          [
-            -97.6904015,
-            19.8146505
-          ],
-          [
-            -97.6904324,
-            19.8148347
-          ],
-          [
-            -97.6904571,
-            19.8150093
-          ],
-          [
-            -97.6904592,
-            19.8151349
-          ],
-          [
-            -97.6904219,
-            19.8153143
-          ],
-          [
-            -97.6903592,
-            19.8153552
-          ],
-          [
-            -97.6903082,
-            19.8153428
-          ],
-          [
-            -97.6901839,
-            19.8152586
-          ],
-          [
-            -97.6898897,
-            19.8150653
-          ],
-          [
-            -97.6897742,
-            19.8150527
-          ],
-          [
-            -97.6896354,
-            19.8150778
-          ],
-          [
-            -97.6894958,
-            19.8151056
-          ],
-          [
-            -97.6893852,
-            19.8150622
-          ],
-          [
-            -97.689303,
-            19.8149661
-          ],
-          [
-            -97.6892148,
-            19.8148491
-          ],
-          [
-            -97.6890027,
-            19.8147467
-          ],
-          [
-            -97.688728,
-            19.8146393
-          ],
-          [
-            -97.6882947,
-            19.8142719
-          ],
-          [
-            -97.6874156,
-            19.813718
-          ],
-          [
-            -97.6873586,
-            19.8137224
-          ]
-        ]
-      },
-      "id": "way/837978389"
-    },
+    
+    
+   
+    
     {
       "type": "Feature",
       "properties": {
         "@id": "way/837980780",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -66599,7 +66302,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/837987429",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -67330,84 +67036,8 @@
       },
       "id": "way/837987550"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837988006",
-        "highway": "residential"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6843411,
-            19.8128134
-          ],
-          [
-            -97.6851028,
-            19.8129345
-          ],
-          [
-            -97.6855876,
-            19.8129718
-          ],
-          [
-            -97.6857867,
-            19.8130349
-          ],
-          [
-            -97.6859752,
-            19.8130973
-          ],
-          [
-            -97.6860141,
-            19.8131503
-          ],
-          [
-            -97.6860201,
-            19.81319
-          ],
-          [
-            -97.6858431,
-            19.8133345
-          ],
-          [
-            -97.6858377,
-            19.8133856
-          ],
-          [
-            -97.6858633,
-            19.8134247
-          ],
-          [
-            -97.6870649,
-            19.8141786
-          ]
-        ]
-      },
-      "id": "way/837988006"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/837988007",
-        "highway": "residential"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.6870649,
-            19.8141786
-          ],
-          [
-            -97.6873586,
-            19.8137224
-          ]
-        ]
-      },
-      "id": "way/837988007"
-    },
+    
+  
  
 
     {
@@ -68682,7 +68312,10 @@
       "properties": {
         "@id": "way/838360653",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -69088,7 +68721,10 @@
       "properties": {
         "@id": "way/838360654",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -69418,7 +69054,10 @@
       "properties": {
         "@id": "way/838360655",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -73004,7 +72643,10 @@
       "properties": {
         "@id": "way/838364318",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -73206,7 +72848,10 @@
       "properties": {
         "@id": "way/838364319",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -73992,7 +73637,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838365845",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -74524,7 +74172,10 @@
       "properties": {
         "@id": "way/838366451",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+         "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -75178,7 +74829,10 @@
       "properties": {
         "@id": "way/838366452",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -76047,7 +75701,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838366975",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -77064,7 +76721,10 @@
       "properties": {
         "@id": "way/838367807",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -77206,7 +76866,10 @@
       "properties": {
         "@id": "way/838367808",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -77472,7 +77135,10 @@
       "properties": {
         "@id": "way/838367809",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -77930,7 +77596,10 @@
       "properties": {
         "@id": "way/838368151",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -78300,7 +77969,10 @@
       "properties": {
         "@id": "way/838368152",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -78530,7 +78202,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838639552",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -80429,7 +80104,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838828538",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -81030,7 +80708,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/838828539",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -82193,7 +81874,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839048655",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -82529,7 +82213,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839050336",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -82966,7 +82653,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839050337",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -83485,7 +83175,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839083504",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -83682,7 +83375,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839097542",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -85446,7 +85142,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839122779",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -92875,7 +92574,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839149063",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -94557,7 +94259,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839149066",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -95223,7 +94928,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839149069",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -97205,7 +96913,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/933282114",
-        "highway": "track"
+        "highway": "track",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -97633,7 +97344,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/934642967",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -100540,7 +100254,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940271386",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -100641,7 +100358,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940282471",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -100899,7 +100619,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940282473",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -101294,7 +101017,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940298285",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -101935,7 +101661,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940303185",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -102161,7 +101890,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940310009",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -102927,7 +102659,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940310011",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Camino sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -103040,7 +102775,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940310012",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -103271,7 +103009,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940317381",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -103390,7 +103131,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940344312",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -103532,7 +103276,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940344314",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -103661,7 +103408,10 @@
       "properties": {
         "@id": "way/940365168",
         "highway": "residential",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -103884,7 +103634,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940658844",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -104168,35 +103921,7 @@
       },
       "id": "way/940658847"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/940659645",
-        "highway": "unclassified"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.76635,
-            19.7807588
-          ],
-          [
-            -97.7663483,
-            19.7807064
-          ],
-          [
-            -97.7663543,
-            19.780671
-          ],
-          [
-            -97.7663785,
-            19.780589
-          ]
-        ]
-      },
-      "id": "way/940659645"
-    },
+    
     {
       "type": "Feature",
       "properties": {
@@ -104341,7 +104066,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/940660867",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -112020,7 +111748,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945359695",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -112872,7 +112603,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945368971",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -113057,7 +112791,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945375045",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -114312,363 +114049,7 @@
       },
       "id": "way/945521471"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/947146215",
-        "highway": "unclassified"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.779015,
-            19.8789439
-          ],
-          [
-            -97.7791303,
-            19.8790347
-          ],
-          [
-            -97.7793074,
-            19.8791508
-          ],
-          [
-            -97.7797419,
-            19.8793475
-          ],
-          [
-            -97.7799028,
-            19.8794736
-          ],
-          [
-            -97.7799565,
-            19.8798053
-          ],
-          [
-            -97.7800369,
-            19.8805482
-          ],
-          [
-            -97.7800798,
-            19.8807575
-          ],
-          [
-            -97.7800691,
-            19.8809013
-          ],
-          [
-            -97.7799833,
-            19.8810425
-          ],
-          [
-            -97.7798089,
-            19.8815117
-          ],
-          [
-            -97.7797499,
-            19.8817715
-          ],
-          [
-            -97.7797124,
-            19.8820666
-          ],
-          [
-            -97.7797446,
-            19.8824752
-          ],
-          [
-            -97.7797258,
-            19.8825887
-          ],
-          [
-            -97.7795407,
-            19.8829494
-          ],
-          [
-            -97.7794495,
-            19.8831109
-          ],
-          [
-            -97.779294,
-            19.8832698
-          ],
-          [
-            -97.7791196,
-            19.8835674
-          ],
-          [
-            -97.7789238,
-            19.8840214
-          ],
-          [
-            -97.7785322,
-            19.8848462
-          ],
-          [
-            -97.7784464,
-            19.8850732
-          ],
-          [
-            -97.7784169,
-            19.8852977
-          ],
-          [
-            -97.778433,
-            19.8855499
-          ],
-          [
-            -97.7784357,
-            19.8857517
-          ],
-          [
-            -97.7784973,
-            19.8859131
-          ],
-          [
-            -97.7785966,
-            19.8859888
-          ],
-          [
-            -97.7787924,
-            19.8861553
-          ],
-          [
-            -97.7789238,
-            19.886352
-          ],
-          [
-            -97.7791169,
-            19.886796
-          ],
-          [
-            -97.7791666,
-            19.886835
-          ],
-          [
-            -97.779251,
-            19.8868867
-          ],
-          [
-            -97.7793101,
-            19.88697
-          ],
-          [
-            -97.7794683,
-            19.887424
-          ],
-          [
-            -97.7794388,
-            19.8875072
-          ],
-          [
-            -97.7793637,
-            19.8875299
-          ],
-          [
-            -97.7793047,
-            19.8875021
-          ],
-          [
-            -97.7791706,
-            19.8871768
-          ],
-          [
-            -97.7791035,
-            19.8871112
-          ],
-          [
-            -97.7790257,
-            19.8871062
-          ],
-          [
-            -97.7789801,
-            19.887149
-          ],
-          [
-            -97.7790633,
-            19.8873105
-          ],
-          [
-            -97.7790499,
-            19.8874113
-          ],
-          [
-            -97.7788889,
-            19.8876762
-          ],
-          [
-            -97.778779,
-            19.8877695
-          ],
-          [
-            -97.7786636,
-            19.8878654
-          ],
-          [
-            -97.7784598,
-            19.8880394
-          ],
-          [
-            -97.777985,
-            19.8887885
-          ],
-          [
-            -97.7779797,
-            19.8889297
-          ],
-          [
-            -97.7779689,
-            19.8891038
-          ],
-          [
-            -97.7778992,
-            19.8891769
-          ],
-          [
-            -97.7778617,
-            19.8893005
-          ],
-          [
-            -97.7778617,
-            19.8894039
-          ],
-          [
-            -97.7778268,
-            19.8894569
-          ],
-          [
-            -97.7777141,
-            19.8895426
-          ],
-          [
-            -97.7774888,
-            19.8900546
-          ],
-          [
-            -97.7775103,
-            19.8901883
-          ],
-          [
-            -97.7775693,
-            19.8903018
-          ],
-          [
-            -97.7776176,
-            19.8906928
-          ],
-          [
-            -97.7775827,
-            19.8909273
-          ],
-          [
-            -97.7777329,
-            19.8915755
-          ],
-          [
-            -97.7776873,
-            19.8916588
-          ],
-          [
-            -97.7775264,
-            19.8918101
-          ],
-          [
-            -97.7775076,
-            19.8918858
-          ],
-          [
-            -97.7775264,
-            19.8919639
-          ],
-          [
-            -97.7775827,
-            19.891969
-          ],
-          [
-            -97.7777839,
-            19.8918858
-          ],
-          [
-            -97.7778965,
-            19.8919185
-          ],
-          [
-            -97.7780119,
-            19.8921228
-          ],
-          [
-            -97.7781352,
-            19.8922641
-          ],
-          [
-            -97.7781487,
-            19.8923599
-          ],
-          [
-            -97.7780736,
-            19.8925819
-          ],
-          [
-            -97.7779341,
-            19.8929047
-          ],
-          [
-            -97.7779341,
-            19.8933764
-          ],
-          [
-            -97.7779233,
-            19.8934073
-          ],
-          [
-            -97.7778918,
-            19.8934098
-          ],
-          [
-            -97.7778747,
-            19.8933962
-          ],
-          [
-            -97.7778489,
-            19.8933165
-          ],
-          [
-            -97.7778295,
-            19.8933064
-          ],
-          [
-            -97.7778184,
-            19.8933139
-          ],
-          [
-            -97.7778127,
-            19.8933272
-          ],
-          [
-            -97.7777604,
-            19.893476
-          ],
-          [
-            -97.7777208,
-            19.8938089
-          ],
-          [
-            -97.7777141,
-            19.8938215
-          ],
-          [
-            -97.7776964,
-            19.8938228
-          ],
-          [
-            -97.7776836,
-            19.8938039
-          ]
-        ]
-      },
-      "id": "way/947146215"
-    },
+    
     {
       "type": "Feature",
       "properties": {
@@ -115387,7 +114768,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/948040107",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -115557,7 +114941,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/948040109",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -116269,100 +115656,8 @@
       },
       "id": "way/948053268"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/948053269",
-        "highway": "residential"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.7155292,
-            19.7973161
-          ],
-          [
-            -97.7161682,
-            19.7974853
-          ],
-          [
-            -97.7167904,
-            19.7976721
-          ],
-          [
-            -97.7174369,
-            19.7978815
-          ],
-          [
-            -97.7178392,
-            19.7980027
-          ],
-          [
-            -97.7181262,
-            19.7980759
-          ],
-          [
-            -97.7183729,
-            19.7980859
-          ],
-          [
-            -97.7186653,
-            19.798043
-          ],
-          [
-            -97.7190542,
-            19.7980178
-          ],
-          [
-            -97.719647,
-            19.7979522
-          ],
-          [
-            -97.7200896,
-            19.7979093
-          ],
-          [
-            -97.7205482,
-            19.7978765
-          ],
-          [
-            -97.7208245,
-            19.7978386
-          ],
-          [
-            -97.7210578,
-            19.7977528
-          ],
-          [
-            -97.7216104,
-            19.7975484
-          ]
-        ]
-      },
-      "id": "way/948053269"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/948053270",
-        "highway": "service"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -97.7187298,
-            19.7992322
-          ],
-          [
-            -97.7185124,
-            19.7984266
-          ]
-        ]
-      },
-      "id": "way/948053270"
-    },
+  
+  
     {
       "type": "Feature",
       "properties": {
@@ -117175,7 +116470,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/950020948",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -117405,7 +116703,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/951958986",
-        "highway": "residential"
+        "highway": "residential",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -118294,7 +117595,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/952258155",
-        "highway": "unclassified"
+        "highway": "unclassified",
+        "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -118814,7 +118118,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/954209193",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -119064,7 +118371,10 @@
       "properties": {
         "@id": "way/954209194",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",

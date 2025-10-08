@@ -1,3 +1,7 @@
+         "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
+        
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -22,6 +26,10 @@ git status
 git add .  
 git commit -m "Actualizo mapa protector con cambios recientes"  
 git push   
+
+
+        
+
 
 /*FIN CODIGO PARA SUBIR NUEVOS CAMBIOS A GITHUB Y VERSEL*/
 

@@ -158,7 +158,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
           }}
           style={{
             position: 'fixed',
-            top: '50%',
+            top: '6%',
             left: '50%',
             transform: 'translate(-50%, -50%)',
             width: '52px',
@@ -167,7 +167,7 @@ function GuiaViva({ posicion, geojsonCalles }) {
             color: 'white',
             borderRadius: '50%',
             fontSize: '1.5em',
-            border: '3px solid #ffffff',
+            border: '2px solid #ffffff',
             boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
             cursor: 'pointer',
             zIndex: 9999,

@@ -6,7 +6,16 @@ export const puntosInteres = geojsonData.features.map((feature) => ({
   tipo: feature.properties.tipo,
   nombre: feature.properties.nombre,
   lat: feature.geometry.coordinates[1],
-  lng: feature.geometry.coordinates[0]
+  lng: feature.geometry.coordinates[0],
+  categoria: feature.properties.categoria,
+  imagen: feature.properties.imagen,
+  horario: feature.properties.horario,
+  telefono: feature.properties.telefono,
+  whatsapp: feature.properties.whatsapp,
+  accesible: feature.properties.accesible,
+  mostrarHorario: feature.properties.mostrarHorario,
+  mostrarContacto: feature.properties.mostrarContacto,
+  busqueda: feature.properties.busqueda
 }));
 
 // Función para crear íconos con estilo común
