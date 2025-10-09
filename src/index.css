@@ -9,17 +9,17 @@ body {
   width: 100vw;
 }
 
-/* Radar animado */
+/* Radar animado de geolocalizacion en iconosMapa.js */
 .radar-icon {
   width: 15px;
   height: 15px;
   background-color: #024da3;
   border-radius: 50%;
   box-shadow: 0 0 0 rgba(31, 47, 47, 0.4);
-  animation: pulse 2s infinite;
+  animation: pulse 2s infinite; /*Pulse es la clase de keyframes*/
 }
 
-@keyframes pulse {
+@keyframes pulse {/*Animacion del icono de radar*/
   0% {
     box-shadow: 0 0 0 0 rgba(1, 57, 240, 0.4);
   }
@@ -30,6 +30,8 @@ body {
     box-shadow: 0 0 0 0 rgba(1, 57, 240, 0.4);
   }
 }
+
+
 
 /* Responsivo para móviles */
 @media (max-width: 768px) {
@@ -70,12 +72,5 @@ body {
   .compass {
     width: 40px;
     height: 40px;
-  }
-}
-
-/* Para pantallas grandes */
-@media (min-width: 1200px) {
-  .search-panel {
-    max-width: 400px;
   }
 }

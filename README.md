@@ -32,7 +32,7 @@ git push
 https://fontawesome.com/search?q=tree&o=r  /*ICONOS DE FONTAWESOME*/ 
 https://icons.getbootstrap.com/            /*ICONOS DE BOSTRAP REACT*/
         
-https://tools.paintmaps.com/es/recorte-de-mapa/MX/4-102078363/muestras /*PAGINA PARA DESCARGAR JSON TETELA DE COAMPO IMAGENES MUY BUENO*/
+https://tools.paintmaps.com/es/recorte-de-mapa/MX/4-102078363/muestras /* DESCARGAR JSON TETELA DE COAMPO IMAGENES MUY BUENO*/
 https://geojson.io/#map=2/0/20 /*MUY BUENO CARGA EL ARCHIVO JSON Y LO PUEDE EDITAR*/
 https://overpass-turbo.eu/ /*El mejor el que use*/
 

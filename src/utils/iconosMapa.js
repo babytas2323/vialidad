@@ -37,7 +37,7 @@ const crearIcono = (bgColor, iconClass) => L.divIcon({
 });
 
 // Íconos personalizados
-export const iconoRadar = L.divIcon({ className: 'radar-icon', iconSize: [20, 20] });
+export const iconoRadar = L.divIcon({ className: 'radar-icon', iconSize: [15, 15] });
 export const iconoEstacionamiento = crearIcono('#e74607ff', 'bi bi-p-circle');
 export const iconoComida = crearIcono('#fd7d04ff', 'bi bi-fork-knife');
 export const iconoNoEstacionamiento = crearIcono('#e70404ff', 'bi bi-sign-no-parking');

@@ -35,8 +35,8 @@
         "categoria": "Estacionamiento público",
         "imagen": "/images/estacionamiento.jpg",
         "horario": {
-          "apertura": "06:00",
-          "cierre": "22:00"
+          "apertura": "00:00",
+          "cierre": "23:59"
         },
         "telefono": "7761234568",
         "whatsapp": "5217761234568",

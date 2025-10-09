@@ -260,7 +260,7 @@ function MapaProtector() {
       {posicion ? (
         <MapContainer
           center={posicion}
-          zoom={18}
+          zoom={15}
           scrollWheelZoom={true}
           style={{ height: '100%', width: '100%', zIndex: 1 }}
           whenCreated={(mapInstance) => { mapaRef.current = mapInstance; }}

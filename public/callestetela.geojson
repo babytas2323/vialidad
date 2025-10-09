@@ -12873,7 +12873,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439786827",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -13250,7 +13253,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/439786828",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -28762,7 +28768,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774717596",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
+        
       },
       "geometry": {
         "type": "LineString",
@@ -29143,7 +29153,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774717597",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
+        
       },
       "geometry": {
         "type": "LineString",
@@ -36973,7 +36987,9 @@
       "properties": {
         "@id": "way/774861897",
         "highway": "unclassified",
-        "name": "Avenida Juan Francisco Lucas"
+        "name": "Avenida Juan Francisco Lucas",
+                "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -38121,7 +38137,11 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774864593",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
+        
       },
       "geometry": {
         "type": "LineString",
@@ -38146,7 +38166,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774864594",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -38219,7 +38242,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/774864595",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -42419,7 +42445,10 @@
       "properties": {
         "@id": "way/775065724",
         "highway": "unclassified",
-        "source": "digitalglobe"
+        "source": "digitalglobe",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -42887,7 +42916,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775070904",
-        "highway": "service"
+        "highway": "service",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -42936,7 +42968,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775070905",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -48143,7 +48178,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775108261",
-        "highway": "service"
+        "highway": "service",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -48352,7 +48390,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775108266",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -48393,7 +48434,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775108267",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -48567,7 +48611,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775108269",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -48612,7 +48659,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/775108270",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -48706,7 +48756,9 @@
       "properties": {
         "@id": "way/775108271",
         "highway": "residential",
-        "name": "Calle Los Sauces"
+        "name": "Calle Los Sauces",   
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -85885,7 +85937,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839122935",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -86050,7 +86105,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839122936",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -86575,7 +86633,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839122937",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -91071,7 +91132,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839132585",
-        "highway": "service"
+        "highway": "service",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -91856,7 +91920,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839144950",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -92145,7 +92212,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/839144951",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -98398,7 +98468,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/935416559",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -106386,7 +106459,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/944526156",
-        "highway": "service"
+        "highway": "service",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -106468,7 +106544,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/944526158",
-        "highway": "unclassified"
+        "highway": "unclassified",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -106868,7 +106947,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/944552543",
-        "highway": "service"
+        "highway": "service",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -109149,7 +109231,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/944668106",
-        "highway": "service"
+        "highway": "service",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
@@ -113852,7 +113937,10 @@
       "type": "Feature",
       "properties": {
         "@id": "way/945410827",
-        "highway": "residential"
+        "highway": "residential",
+                 "name": "Carr sn nombre",
+        "oneway": "yes",
+        "sentido": "doble-sentido" 
       },
       "geometry": {
         "type": "LineString",
