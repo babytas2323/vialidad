@@ -1,18 +1,4 @@
-🧩 1️⃣ Almacenamiento local (sin conexión)
-🧩 2️⃣ Servidor backend (archivo local)
-🧩 3️⃣ Repositorio de GitHub (control de versiones)
-
-| Nivel      | Dónde se guarda               | Cuándo se guarda         | Ventaja principal                         |
-| ---------- | ----------------------------- | ------------------------ | ----------------------------------------- |
-| 🏠 Local   | Navegador del usuario         | Inmediatamente (offline) | No se pierde nada sin conexión            |
-| 💾 Backend | Servidor (archivo JSON local) | Durante la ejecución     | Rápido acceso y sincronización            |
-| ☁️ GitHub  | Repositorio remoto            | Después de cada cambio   | Respaldo, control de versiones, historial |
-
-    
-    
-         "name": "Carr sn nombre",
-        "oneway": "yes",
-        "sentido": "doble-sentido" 
+ 
         
 # React + Vite
 
