@@ -10,8 +10,13 @@ export const puntosInteres = geojsonData.features.map((feature) => ({
   categoria: feature.properties.categoria,
   imagen: feature.properties.imagen,
   horario: feature.properties.horario,
+
   telefono: feature.properties.telefono,
   whatsapp: feature.properties.whatsapp,
+  facebook: feature.properties.facebook,
+  instagram: feature.properties.instagram,
+  tiktok: feature.properties.tiktok,
+
   accesible: feature.properties.accesible,
   mostrarHorario: feature.properties.mostrarHorario,
   mostrarContacto: feature.properties.mostrarContacto,
@@ -22,18 +27,31 @@ export const puntosInteres = geojsonData.features.map((feature) => ({
 const crearIcono = (bgColor, iconClass) => L.divIcon({
   html: `
     <div style="
-      background-color: ${bgColor};
-      border: 2px solid white;
-      border-radius: 50%;
-      width: 25px;
-      height: 25px;
+      background: ${bgColor};
+      width: 35px;
+      height: 35px;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(-45deg);
       display: flex;
       align-items: center;
-      justify-content: center;">
-      <i class="${iconClass}" style="font-size: 20px; color: white;"></i>
-    </div>`,
+      justify-content: center;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+      border: 3px solid white;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    ">
+      <i class="${iconClass}" style="
+        font-size: 18px; 
+        color: white; 
+        transform: rotate(45deg);
+        text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      "></i>
+    </div>
+  `,
   className: '',
-  iconSize: [32, 32],
+  iconSize: [40, 40],
+  iconAnchor: [20, 40],
+  popupAnchor: [0, -40],
 });
 
 // Íconos personalizados
@@ -42,9 +60,9 @@ export const iconoEstacionamiento = crearIcono('#e74607ff', 'bi bi-p-circle');
 export const iconoComida = crearIcono('#fd7d04ff', 'bi bi-fork-knife');
 export const iconoNoEstacionamiento = crearIcono('#e70404ff', 'bi bi-sign-no-parking');
 export const iconoDiscapacitado = crearIcono('#0804e7ff', 'bi bi-person-wheelchair');
-export const iconoIglesia = crearIcono('#0439e7ff', 'fas fa-church');
-export const iconoHospital= crearIcono('#e74404ff', 'fa-solid fa-hospital'); 
-export const iconoParqueCentro= crearIcono('#008d18ff', 'fa-solid fa-tree');  
+export const iconoIglesia = crearIcono('#041887ff', 'fas fa-church');
+export const iconoHospital = crearIcono('#e74404ff', 'fa-solid fa-hospital');
+export const iconoParqueCentro = crearIcono('#008d18ff', 'fa-solid fa-tree');
 
 
 // Función para obtener el ícono según el tipo

@@ -144,72 +144,246 @@ function MapaProtector() {
   };
 
   // 🔹 Generar contenido del popup
-  const generarPopupHTML = (punto) => {
-    const mostrarContacto = punto.mostrarContacto;
-    const mostrarEstado = punto.mostrarHorario;
-    const abiertoAhora = mostrarEstado ? estaAbierto(punto.horario) : false;
+const generarPopupHTML = (punto) => {
+  const mostrarContacto = punto.mostrarContacto;
+  const mostrarEstado = punto.mostrarHorario;
+  const abiertoAhora = mostrarEstado ? estaAbierto(punto.horario) : false;
 
-    return `
-      <div style="
-        width: 240px;
-        font-family: sans-serif;
-        background-color: #f8f8f8;
-        border-radius: 12px;
-        padding: 12px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      ">
+  const tieneContacto = punto.telefono || punto.whatsapp || punto.facebook || punto.instagram || punto.tiktok;
+
+  // Botón de ruta SIEMPRE visible
+  const botonRuta = `
+    <a href="https://www.google.com/maps/dir/?api=1&destination=${punto.lat},${punto.lng}&travelmode=walking" 
+       target="_blank"
+       style="
+         display: inline-flex;
+         width: 32px;
+         height: 32px;
+         border-radius: 50%;
+         background: #4f46e5;
+         color: white;
+         align-items: center;
+         justify-content: center;
+         text-decoration: none;
+         font-size: 14px;
+         transition: all 0.2s ease;
+         flex-shrink: 0;
+       "
+       onmouseover="this.style.transform='scale(1.1)'; this.style.background='#4338ca';"
+       onmouseout="this.style.transform='scale(1)'; this.style.background='#4f46e5';"
+       title="Cómo llegar en Google Maps">
+      <i class="bi bi-geo-alt-fill"></i>
+    </a>
+  `;
+
+  return `
+    <div style="
+      width: 260px;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06);
+      margin: -6px -10px;
+    ">
+      <!-- Imagen con badge -->
+      <div style="position: relative; height: 140px; overflow: hidden; background: #f0f0f0;">
         <img src="${punto.imagen}" alt="${punto.nombre}" style="
           width: 100%;
-          height: 120px;
+          height: 100%;
           object-fit: cover;
-          border-radius: 8px;
+          display: block;
         "/>
-        <h4 style="margin: 8px 0 4px; font-size: 16px; text-align: center;">${punto.nombre}</h4>
-        <div style="font-size: 14px; color: #666; text-align: center;">${punto.categoria || ' '}</div>
-        ${mostrarEstado && punto.horario
-        ? `<div style="font-size: 14px; text-align: center; margin-top: 4px;">
-                ${abiertoAhora
-          ? '<span style="color: green;">🟢 Abierto ahora</span>'
-          : '<span style="color: red;">🔴 Cerrado</span>'
-        }
-              </div>`
-        : ''
-      }
-        ${punto.accesible
-        ? `<div style="margin-top: 4px; font-size: 14px; text-align: center;">♿ Accesible</div>`
-        : ''
-      }
-        ${mostrarContacto && punto.telefono && punto.whatsapp
-        ? `<div style="
-                margin-top: 10px;
-                display: flex;
-                justify-content: center;
-                gap: 16px;
-              ">
-                <a href="tel:${punto.telefono}" style="text-decoration: none;">
-                  <i class="bi bi-telephone-fill" style="
-                    font-size: 22px;
-                    color: white;
-                    background-color: #2196f3;
-                    padding: 8px;
-                    border-radius: 50%;
-                  "></i>
-                </a>
-                <a href="https://wa.me/${punto.whatsapp}" target="_blank" style="text-decoration: none;">
-                  <i class="bi bi-whatsapp" style="
-                    font-size: 22px;
-                    color: white;
-                    background-color: #25d366;
-                    padding: 8px;
-                    border-radius: 50%;
-                  "></i>
-                </a>
-              </div>`
-        : ''
-      }
+        ${mostrarEstado && punto.horario ? `
+          <span style="
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: ${abiertoAhora ? '#22c55e' : '#ef4444'};
+            color: white;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.3px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+          ">${abiertoAhora ? '● ABIERTO' : '● CERRADO'}</span>
+        ` : ''}
       </div>
-    `;
-  };
+
+      <!-- Contenido -->
+      <div style="padding: 16px 18px 18px;">
+        <!-- Título + Botón Ruta (siempre visible) -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px; gap: 8px;">
+          <h4 style="
+            margin: 0;
+            font-size: 17px;
+            font-weight: 700;
+            color: #111827;
+            line-height: 1.3;
+            flex: 1;
+          ">${punto.nombre}</h4>
+          ${botonRuta}
+        </div>
+        
+        <!-- Categoría -->
+        <p style="
+          margin: 0 0 12px 0;
+          font-size: 13px;
+          color: #6B7280;
+          font-weight: 400;
+        ">${punto.categoria || ''}</p>
+
+        <!-- Etiquetas -->
+        <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px;">
+          ${mostrarEstado && punto.horario ? `
+            <span style="
+              display: inline-block;
+              padding: 3px 12px;
+              border-radius: 20px;
+              font-size: 11px;
+              font-weight: 600;
+              background: ${abiertoAhora ? '#dcfce7' : '#fee2e2'};
+              color: ${abiertoAhora ? '#166534' : '#991b1b'};
+            ">${abiertoAhora ? '🟢 Abierto ahora' : '🔴 Cerrado'}</span>
+          ` : ''}
+          ${punto.accesible ? `
+            <span style="
+              display: inline-block;
+              padding: 3px 12px;
+              border-radius: 20px;
+              font-size: 11px;
+              font-weight: 600;
+              background: #e0e7ff;
+              color: #3730a3;
+            ">♿ Accesible</span>
+          ` : ''}
+        </div>
+
+        <!-- Botones de contacto (solo si hay contacto) -->
+        ${mostrarContacto && tieneContacto ? `
+          <div style="
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            padding-top: 12px;
+            border-top: 1px solid #f1f5f9;
+          ">
+            ${punto.telefono ? `
+              <a href="tel:${punto.telefono}" 
+                 style="
+                   display: inline-flex;
+                   width: 32px;
+                   height: 32px;
+                   border-radius: 50%;
+                   background: #4f46e5;
+                   color: white;
+                   align-items: center;
+                   justify-content: center;
+                   text-decoration: none;
+                   font-size: 14px;
+                   transition: all 0.2s ease;
+                 "
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.background='#4338ca';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.background='#4f46e5';"
+                 title="Llamar">
+                <i class="bi bi-telephone-fill"></i>
+              </a>
+            ` : ''}
+            
+            ${punto.whatsapp ? `
+              <a href="https://wa.me/${punto.whatsapp}" target="_blank" 
+                 style="
+                   display: inline-flex;
+                   width: 32px;
+                   height: 32px;
+                   border-radius: 50%;
+                   background: #25D366;
+                   color: white;
+                   align-items: center;
+                   justify-content: center;
+                   text-decoration: none;
+                   font-size: 14px;
+                   transition: all 0.2s ease;
+                 "
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.background='#1ebe5c';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.background='#25D366';"
+                 title="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            ` : ''}
+            
+            ${punto.instagram ? `
+              <a href="https://instagram.com/${punto.instagram}" target="_blank" 
+                 style="
+                   display: inline-flex;
+                   width: 32px;
+                   height: 32px;
+                   border-radius: 50%;
+                   background: #be185d;
+                   color: white;
+                   align-items: center;
+                   justify-content: center;
+                   text-decoration: none;
+                   font-size: 14px;
+                   transition: all 0.2s ease;
+                 "
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.background='#a3144f';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.background='#be185d';"
+                 title="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+            ` : ''}
+            
+            ${punto.facebook ? `
+              <a href="https://facebook.com/${punto.facebook}" target="_blank" 
+                 style="
+                   display: inline-flex;
+                   width: 32px;
+                   height: 32px;
+                   border-radius: 50%;
+                   background: #2563eb;
+                   color: white;
+                   align-items: center;
+                   justify-content: center;
+                   text-decoration: none;
+                   font-size: 14px;
+                   transition: all 0.2s ease;
+                 "
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.background='#1d4ed8';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.background='#2563eb';"
+                 title="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+            ` : ''}
+            
+            ${punto.tiktok ? `
+              <a href="https://tiktok.com/@${punto.tiktok}" target="_blank" 
+                 style="
+                   display: inline-flex;
+                   width: 32px;
+                   height: 32px;
+                   border-radius: 50%;
+                   background: #0f172a;
+                   color: white;
+                   align-items: center;
+                   justify-content: center;
+                   text-decoration: none;
+                   font-size: 14px;
+                   transition: all 0.2s ease;
+                 "
+                 onmouseover="this.style.transform='scale(1.1)'; this.style.background='#020617';"
+                 onmouseout="this.style.transform='scale(1)'; this.style.background='#0f172a';"
+                 title="TikTok">
+                <i class="bi bi-tiktok"></i>
+              </a>
+            ` : ''}
+          </div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+};
 
   let mensaje = '';
   if (posicion) {

@@ -55,3 +55,5 @@ out skel qt;
 
 
 ## driver.js --para presentar proyectos de mi sistema  
+
+## npm run dev
